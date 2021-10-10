@@ -1,7 +1,8 @@
-import './App.css';
+import '../App.css';
+import './framework.css';
 
 function FrameWorkPage() {
-  return <div className="App">a</div>;
+  return <div className="framework-page"></div>;
 }
 
 export default FrameWorkPage;

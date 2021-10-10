@@ -1,7 +1,8 @@
-import './App.css';
+import '../App.css';
+import './contacts.css';
 
 function ContactsPage() {
-  return <div className="contacts-page">a</div>;
+  return <div className="contacts-page"></div>;
 }
 
 export default ContactsPage;

@@ -3,11 +3,24 @@
 .semfep-page {
   background: url('../images/backgrounds/Frame2.png');
   background-size: cover;
+  background-position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
   height: 100vh;
   width: 100vw;
 }
 
 h2 {
+  margin: 0;
+  position: absolute;
+  width: 310px;
+  height: 152px;
+  left: 1241px;
+  top: 666px;
+  font-size: 64px;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -17,4 +30,8 @@ h2 {
   height: 74px;
   border-width: 37px 0px 37px 74px;
   border-color: transparent transparent transparent #202020;
+
+  position: absolute;
+  left: 1599px;
+  top: 709px;
 }

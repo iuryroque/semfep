@@ -5,6 +5,11 @@
   width: 100vw;
 }
 
+.frame {
+  color: white;
+  border: 0;
+}
+
 .frame .frame:active {
   box-shadow: none;
 }
