@@ -12,8 +12,8 @@ import DataSheetPage from './pages/datasheet';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <SemfepHomePage />
+      <Home />
+      {/* <SemfepHomePage /> */}
       {/* <FramesPage /> */}
       {/* <FramesDescriptionPage /> */}
       {/* <FramesDescription2Page /> */}

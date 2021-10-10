@@ -10,7 +10,7 @@ import './frames.css';
 function FramesPage() {
   return (
     <div className="frames-page">
-      {/* <Header /> */}
+      <Header />
       <Frames />
       {/* <Footer /> */}
     </div>

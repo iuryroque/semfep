@@ -15,8 +15,6 @@ class Frames extends React.Component {
               SERIEDADE
             </button>
           </label>
-        </div>
-        <div>
           <label for="autonomia" title="AUTONOMIA">
             <button className="frame autonomia" id="autonomia">
               AUTONOMIA
@@ -39,8 +37,6 @@ class Frames extends React.Component {
               LINGUAGEM
             </button>
           </label>
-        </div>
-        <div>
           <label for="transformacao" title="TRANSFORMAÇÂO">
             <button className="frame transformacao" id="transformacao">
               TRANSFORMAÇÃO

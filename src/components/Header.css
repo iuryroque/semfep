@@ -1,0 +1,24 @@
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+
+img {
+  position: absolute;
+  width: 25vw;
+  height: 25vh;
+  left: 0px;
+  top: 40px;
+}
+
+button {
+  /* width: 406px;
+  height: 68px; */
+
+  background: #f1eded;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
