@@ -1,0 +1,55 @@
+.frames-page {
+  background: url('../images/backgrounds/Frame3.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.frame {
+  color: white;
+  border: 0;
+}
+
+.frame .frame:active {
+  box-shadow: none;
+}
+
+.frame:hover {
+  cursor: pointer;
+}
+
+.frame:nth-of-type(1) {
+  grid-column: 2 / 4;
+}
+
+.resistencia {
+  background-color: var(--resistencia-color);
+}
+
+.seriedade {
+  background-color: var(--seriedade-color);
+}
+
+.autonomia {
+  background-color: var(--autonomia-color);
+}
+
+.movimento {
+  background-color: var(--movimento-color);
+}
+
+.linguagem {
+  background-color: var(--linguagem-color);
+}
+
+.transformacao {
+  background-color: var(--transformação-color);
+}
+
+.saudade {
+  background-color: var(--saudade-color);
+}
+
+.felicidade {
+  background-color: var(--felicidade-color);
+}
