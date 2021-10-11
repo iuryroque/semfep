@@ -1,0 +1,26 @@
+.footer-images-container {
+  left: 580px;
+}
+
+footer {
+  background-color: white;
+  grid-column: 1 / 13;
+  grid-row: 12;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  margin-left: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer img {
+  margin: 0px 10px 0px 10px;
+}

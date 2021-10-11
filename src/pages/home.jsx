@@ -3,11 +3,11 @@ import './home.css';
 import imagem from '../images/color-logo.jpg';
 function Home() {
   return (
-    <div className="">
+    <div className="page">
       <header className="header-home">
         <nav className="nav-home">
           <img className="img-logo" src={imagem} alt="fep logo" />
-          <a href="#somos"> Somos</a>
+          <a href="#somos"> Quem Somos</a>
           <a href="#SEMFEP">SEMFEP</a>
           <div className="hr-home">
             <hr />
