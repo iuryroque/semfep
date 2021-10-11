@@ -3,13 +3,16 @@
   width: 100%;
   height: auto;
   background: #fff;
-  margin-top: 25px;
+  padding: 10px 0;
+  position:absolute;
+  bottom:0;
 }
 
 .links-footer {
   width: 50%;
   font-size: 24px;
   margin: 0 0 0 20px;
+  align-self: center;
 }
 
 .links-footer a {
