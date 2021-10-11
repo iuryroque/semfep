@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-top: 25px;
+}
+
+.links-footer {
+  width: 50%;
+  font-size: 24px;
+  margin: 0 0 0 20px;
+}
+
+.links-footer a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.imgs-container {
+  width: 50%; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.img-footer {
+  object-fit: contain;
+  height: 50px;
+  width: auto;
+  margin: 0 20px
+}
