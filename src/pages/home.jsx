@@ -1,14 +1,17 @@
 import '../App.css';
 import './home.css';
 import imagem from '../images/color-logo.jpg';
+import {Link} from 'react-router-dom'
+
 function Home() {
   return (
     <div className="page">
       <header className="header-home">
         <nav className="nav-home">
           <img className="img-logo-home" src={imagem} alt="fep logo" />
-          <a href="#somos"> Quem Somos</a>
-          <a href="#SEMFEP">SEMFEP</a>
+        
+          <Link to=''>Quem Somos</Link>
+          <Link to='/semfep'>SEMFEP</Link>
         </nav>
             <hr className="hr-home" />
       </header>
