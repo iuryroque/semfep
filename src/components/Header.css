@@ -1,0 +1,72 @@
+header {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  background: #f5f5f5;
+  opacity: 0.8;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  max-width: 25vw;
+  height: auto;
+  left: 0px;
+  top: 40px;
+  opacity: 1;
+}
+
+button {
+  /* width: 406px;
+  height: 68px; */
+
+  background: #f1eded;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 0;
+  font-family: var(--nav-bar-font-family);
+  display: flex;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.nav-button {
+  border-radius: 0;
+  border: 1px;
+  max-width: 15%;
+  width: 100%;
+  height: auto;
+  background: #f1eded;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.nav-button:active {
+  background: #cacaca;
+}
+
+.nav-button #pagina-inicial {
+  position: absolute;
+  left: 555px;
+  top: 46px;
+}
+
+.nav-button #enquadrar-trabalho {
+  position: absolute;
+  left: 875px;
+  top: 46px;
+}
+
+.nav-button #contatos {
+  position: absolute;
+  left: 1277px;
+  top: 46px;
+}

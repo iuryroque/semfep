@@ -12,10 +12,10 @@ function Footer() {
           <a href="#">Ficha Técnica</a> | <a href="#">Contatos</a> 
         </p>
       <div className='imgs-container'>
-        <img className='img-footer' src= { brasao_ufba } alt="Brasão da faculdade UFBA" />
-        <img className='img-footer' src= { faced_logo } alt="Logo da FACED UFBA" />
-        <img className='img-footer' src= { ppge_ufba } alt="Logo da PPGE UFBA" />
-        <img className='img-footer' src= { color_logo } alt="Logo do evento FEP (Formação de Professores em ensino)" />
+        <img className='img-footer' src= { brasao_ufba } alt="Logo da Faculdade de Educação da UFBA" />
+        <img className='img-footer' src= { faced_logo } alt="Logo do Programa de Pós Graduação em Educação da UFBA" />
+        <img className='img-footer' src= { ppge_ufba } alt="Logo do Programa de Pós Graduação em Educação da UFBA" />
+        <img className='img-footer' src= { color_logo } alt="Logo do Grupo de Formação de Professores em Exercício da UFBA" />
       </div>
     </footer>
   )

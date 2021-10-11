@@ -8,11 +8,6 @@
   width: 100vw;
 }
 
-img {
-  height: 100vh;
-  width: 100vw;
-}
-
 h2 {
   margin: 0;
   position: absolute;
@@ -30,6 +25,7 @@ h2 {
   height: 74px;
   border-width: 37px 0px 37px 74px;
   border-color: transparent transparent transparent #202020;
+  cursor: pointer;
 
   position: absolute;
   left: 1599px;
