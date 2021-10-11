@@ -5,7 +5,7 @@ import Header from '../components/Header';
 
 function ContactsPage() {
   return (
-    <div className="contacts-page">
+    <div className="page-contacts">
       <Header />
     </div>
   );

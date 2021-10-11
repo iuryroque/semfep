@@ -6,7 +6,7 @@ import './framesDescription2.css';
 
 function FramesDescription2Page() {
   return (
-    <div className="frames-description-page">
+    <div className="page-frames-description">
       <Header />
     </div>
   );

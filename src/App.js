@@ -12,9 +12,9 @@ import DataSheetPage from './pages/datasheet';
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
       {/* <SemfepHomePage /> */}
-      {/* <FramesPage /> */}
+      <FramesPage />
       {/* <FramesDescriptionPage /> */}
       {/* <FramesDescription2Page /> */}
       {/* <ContactsPage /> */}

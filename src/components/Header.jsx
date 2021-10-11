@@ -8,12 +8,13 @@ class Header extends React.Component {
   render() {
     return (
       <>
-        <header>
+        <header className='header-Header'>
           <img
+            className='img-header'
             src={eventLogo}
             alt="Logo do sexto Seminário de Formação de Professores em Exercício"
           />
-          <nav>
+          <nav className='nav-header'>
             <button className="nav-button" id="pagina-inicial">
               Página Inicial
             </button>

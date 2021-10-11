@@ -6,16 +6,16 @@ function Home() {
     <div className="page">
       <header className="header-home">
         <nav className="nav-home">
-          <img className="img-logo" src={imagem} alt="fep logo" />
+          <img className="img-logo-home" src={imagem} alt="fep logo" />
           <a href="#somos"> Quem Somos</a>
           <a href="#SEMFEP">SEMFEP</a>
         </nav>
-            <hr />
+            <hr className="hr-home" />
       </header>
       <body className="body-home">
-        <h1>O Que é o Grupo FEP?</h1>
+        <h1 className='h1-home'>O Que é o Grupo FEP?</h1>
         <section className="class-home">
-          <p>
+          <p className='p-home'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             pretium molestie arcu nec viverra. Phasellus et quam consectetur,
             tempus ligula at, eleifend nunc. Pellentesque a molestie risus. Duis
@@ -48,7 +48,7 @@ function Home() {
             aptent taciti sociosqu ad litora torquent per conubia nostra, per
             inceptos himenaeo.
           </p>
-          <p>
+          <p className='p-home'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             pretium molestie arcu nec viverra. Phasellus et quam consectetur,
             tempus ligula at, eleifend nunc. Pellentesque a molestie risus. Duis

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.semfep-page {
+.page-semfep {
   background: url('../images/backgrounds/Frame2.png');
   background-size: cover;
   background-position: absolute;
@@ -8,7 +8,7 @@
   width: 100vw;
 }
 
-h2 {
+.h2-semfep {
   margin: 0;
   position: absolute;
   width: 310px;
@@ -19,7 +19,7 @@ h2 {
   font-family: 'Bebas Neue', cursive;
 }
 
-.button.play {
+.button-play-sefep {
   box-sizing: border-box;
   width: 74px;
   height: 74px;

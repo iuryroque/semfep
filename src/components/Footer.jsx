@@ -7,7 +7,7 @@ import color_logo from '../images/color-logo.jpg'
 
 function Footer() {
   return(
-    <footer className='footer'>
+    <footer className='footer-Footer'>
         <p className='links-footer'>
           <a href="#">Ficha Técnica</a> | <a href="#">Contatos</a> 
         </p>

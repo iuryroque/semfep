@@ -9,7 +9,7 @@ import './framesDescription.css';
 
 function FramesDescriptionPage() {
   return (
-    <div className="frames-description-page">
+    <div className="page-frames-description">
       <Header />
       <FramesNav />
       {/* <Footer /> */}

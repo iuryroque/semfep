@@ -1,4 +1,5 @@
 import React from 'react';
+import './Frames.css'
 
 class Frames extends React.Component {
   render() {

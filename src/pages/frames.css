@@ -1,4 +1,4 @@
-.frames-page {
+.page-frames {
   background: url('../images/backgrounds/Frame3.png');
   background-size: cover;
   height: 100vh;
@@ -6,65 +6,5 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-@media screen and (max-width: 800px) {
-  .frames-page {
-    flex-direction: column;
-  }
-}
-
-#frames-container {
-  margin: auto;
-}
-
-.frame {
-  color: white;
-  border: 0;
-  width: 10vw;
-  height: 20vh;
-}
-
-.frame .frame:active {
-  box-shadow: none;
-}
-
-.frame:hover {
-  cursor: pointer;
-}
-
-.frame:nth-of-type(1) {
-  grid-column: 2 / 4;
-}
-
-.resistencia {
-  background-color: var(--resistencia-color);
-}
-
-.seriedade {
-  background-color: var(--seriedade-color);
-}
-
-.autonomia {
-  background-color: var(--autonomia-color);
-}
-
-.movimento {
-  background-color: var(--movimento-color);
-}
-
-.linguagem {
-  background-color: var(--linguagem-color);
-}
-
-.transformacao {
-  background-color: var(--transformação-color);
-}
-
-.saudade {
-  background-color: var(--saudade-color);
-}
-
-.felicidade {
-  background-color: var(--felicidade-color);
+  margin:  0 auto;
 }

@@ -1,22 +1,22 @@
-nav {
+.nav-home {
   width: 100%;
   margin-top: 20px;
   margin-left: 40px;
 }
 
-nav a {
+.nav-home a {
   text-decoration: none;
   color: black;
   margin-left: 60px;
   font-size: 36px;
 }
 
-img {
+.img-logo-home {
   width: 120px;
   height: 113px;
 }
 
-hr {
+.hr-home {
   width: 50%;
   margin: 0;  
 }
@@ -26,10 +26,10 @@ hr {
   margin: 0 auto;
 }
 
-h1 {
+.h1-home {
   text-align: center;
 }
 
-p {
+.p-home {
   text-align: justify;
 }

@@ -4,7 +4,7 @@ import './framework.css';
 
 function FrameWorkPage() {
   return (
-    <div className="framework-page">
+    <div className="page-framework">
       <Header />
     </div>
   );

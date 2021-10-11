@@ -5,7 +5,7 @@ import Header from '../components/Header';
 
 function DataSheetPage() {
   return (
-    <div className="datasheet-page">
+    <div className="page-datasheet">
       <Header />
     </div>
   );

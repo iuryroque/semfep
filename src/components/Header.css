@@ -1,4 +1,4 @@
-header {
+.header-Header {
   width: 100vw;
   height: 15vh;
   display: flex;
@@ -9,7 +9,7 @@ header {
   opacity: 0.8;
 }
 
-img {
+.img-header {
   position: absolute;
   width: 100%;
   max-width: 25vw;
@@ -19,7 +19,7 @@ img {
   opacity: 1;
 }
 
-button {
+.nav-button {
   /* width: 406px;
   height: 68px; */
 
@@ -28,7 +28,7 @@ button {
   box-sizing: border-box;
 }
 
-nav {
+.nav-header {
   margin: 0;
   font-family: var(--nav-bar-font-family);
   display: flex;
