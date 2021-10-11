@@ -1,0 +1,24 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+}
+
+.btn-side-bar {
+  color: white;
+  border: none;
+  width: 140px;
+  padding: 8px 0;
+  font-size: 14px;
+  /* padding: 1.7vh 0; */
+}
+
+.selected {
+  height: 100px;
+}
+
+.btn-side-bar:hover {
+  border: solid black 2px;
+  padding: 6px 0;
+  box-sizing: border-box;
+}
