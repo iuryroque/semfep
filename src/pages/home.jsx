@@ -46,7 +46,7 @@ function Home() {
             at pulvinar neque, in viverra urna. Praesent ut ante ut lectus
             convallis euismod. Nunc eu sem ut erat malesuada vehicula. Class
             aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            inceptos himenaeo.
           </p>
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
