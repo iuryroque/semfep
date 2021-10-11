@@ -1,5 +1,7 @@
 import '../App.css';
 import './semfepHome.css';
+import { Link } from 'react-router-dom';
+
 
 function SemfepHomePage() {
   return (
@@ -9,7 +11,9 @@ function SemfepHomePage() {
           CLIQUE AQUI <br />
           PARA COMEÇAR
         </h2>
-        <button className="button-play-semfep"></button>
+        <Link to='/semfep/frames'>
+          <button className="button-play-semfep"></button>
+        </Link>
       </div>
     </div>
   );
