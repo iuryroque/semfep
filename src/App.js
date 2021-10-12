@@ -8,8 +8,7 @@ import FramesDescription2Page from './pages/framesDescription2';
 import FrameWorkPage from './pages/frameWork';
 import ContactsPage from './pages/contacts';
 import DataSheetPage from './pages/datasheet';
-import {Switch,Route,Link} from 'react-router-dom'
-
+import { Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -23,17 +22,14 @@ function App() {
       {/* <DataSheetPage /> */}
       {/* <FrameWorkPage /> */}
 
-      
-
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/semfep' exact component={SemfepHomePage} />
-        <Route path='/semfep/frames' exact component={FramesPage} />
-        <Route path='/semfep/contatos' exact component={ContactsPage} />
-        <Route path='/semfep/ficha-tecnica' exact component={DataSheetPage} />
-
+        <Route path="/" exact component={Home} />
+        <Route path="/quem-somos" exact component={Home} />
+        <Route path="/semfep" exact component={SemfepHomePage} />
+        <Route path="/semfep/frames" exact component={FramesPage} />
+        <Route path="/semfep/contatos" exact component={ContactsPage} />
+        <Route path="/semfep/ficha-tecnica" exact component={DataSheetPage} />
       </Switch>
-
     </div>
   );
 }
