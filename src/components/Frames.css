@@ -1,4 +1,4 @@
-#containerframes{
+#containerframes {
   margin: auto;
 }
 
@@ -7,18 +7,26 @@
   border: 0;
   width: 10vw;
   height: 20vh;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
 }
 
-.frame .frame:active {
+@media screen and (max-width: 768px) {
+  .frame {
+    width: 30vw;
+    height: 20vh;
+  }
+}
+
+.frame:active {
   box-shadow: none;
 }
 
 .frame:hover {
   cursor: pointer;
-}
-
-.frame:nth-of-type(1) {
-  grid-column: 2 / 4;
 }
 
 .resistencia {
