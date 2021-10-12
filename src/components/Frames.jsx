@@ -1,5 +1,6 @@
 import React from 'react';
 import './Frames.css'
+import { Link } from 'react-router-dom'
 
 class Frames extends React.Component {
   render() {
@@ -7,46 +8,46 @@ class Frames extends React.Component {
       <section id="frames-container">
         <div>
           <label for="resistencia" title="RESISTÊNCIA">
-            <button className="frame resistencia" id="resistencia">
+            <Link className="frame resistencia" id="resistencia">
               RESISTÊNCIA
-            </button>
+            </Link>
           </label>
           <label for="seriedade" title="SERIEDADE">
-            <button className="frame seriedade" id="seriedade">
+            <Link className="frame seriedade" id="seriedade">
               SERIEDADE
-            </button>
+            </Link>
           </label>
           <label for="autonomia" title="AUTONOMIA">
-            <button className="frame autonomia" id="autonomia">
+            <Link className="frame autonomia" id="autonomia">
               AUTONOMIA
-            </button>
+            </Link>
           </label>
           <label for="movimento" title="MOVIMENTO">
-            <button className="frame movimento" id="movimento">
+            <Link className="frame movimento" id="movimento">
               MOVIMENTO
-            </button>
+            </Link>
           </label>
         </div>
         <div>
           <label for="felicidade" title="FELICIDADE">
-            <button className="frame felicidade" id="felicidade">
+            <Link className="frame felicidade" id="felicidade">
               FELICIDADE
-            </button>
+            </Link>
           </label>
           <label for="linguagem" title="LINGUAGEM">
-            <button className="frame linguagem" id="linguagem">
+            <Link className="frame linguagem" id="linguagem">
               LINGUAGEM
-            </button>
+            </Link>
           </label>
           <label for="transformacao" title="TRANSFORMAÇÂO">
-            <button className="frame transformacao" id="transformacao">
+            <Link className="frame transformacao" id="transformacao">
               TRANSFORMAÇÃO
-            </button>
+            </Link>
           </label>
           <label for="saudade" title="SAUDADE">
-            <button className="frame saudade" id="saudade">
+            <Link className="frame saudade" id="saudade">
               SAUDADE
-            </button>
+            </Link>
           </label>
         </div>
       </section>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import FramesNav from '../components/NavBar';
+import SideBar from '../components/SideBar';
 
 import '../App.css';
 import './framesDescription.css';
@@ -11,8 +11,8 @@ function FramesDescriptionPage() {
   return (
     <div className="page-frames-description">
       <Header />
-      <FramesNav />
-      {/* <Footer /> */}
+      <SideBar />
+      <Footer />
     </div>
   );
 }
