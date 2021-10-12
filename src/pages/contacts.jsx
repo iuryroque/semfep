@@ -1,14 +1,16 @@
 import '../App.css';
 import './contacts.css';
-import Footer from '../components/Footer';
 
 import Header from '../components/Header';
+import Contacts from '../components/Contacts';
+import Footer from '../components/Footer';
 
 function ContactsPage() {
   return (
     <div className="page-contacts">
       <Header />
-      <Footer  />
+      <Contacts />
+      <Footer />
     </div>
   );
 }

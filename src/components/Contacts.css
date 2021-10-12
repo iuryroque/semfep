@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+.container-contacts-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 63%;
+  align-self: center;
+}
+
+.titulo-contacts {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Imprima', sans-serif;
+  font-size: 5vh;
+}
+
+.logo-mail {
+  height: 97px;
+  width: 97px;
+  margin-bottom: 10px;
+}
+
+.logo-instagram {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.logo-facebook {
+  height: 110px;
+  width: 110px;
+  margin-bottom: 10px;
+}
+
+.logo-whatsapp {
+  height: 97px;
+  width: 97px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo-mail {
+    height: 43px;
+    width: 43px;
+  }
+
+  .logo-instagram {
+    height: 40px;
+    width: 40px;
+  }
+
+  .logo-facebook {
+    height: 55px;
+    width: 55px;
+  }
+
+  .logo-whatsapp {
+    height: 43px;
+    width: 43px;
+  }
+}
