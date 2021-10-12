@@ -1,33 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .page-semfep {
-  background: url('../images/backgrounds/Frame2.png');
-  background-size: cover;
-  background-position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+}
+
+.comecar-container-semfep{
+  width: auto;
+  float: right; 
+  margin-bottom: 0;
+  position: absolute; 
+  right: 16%; 
+  bottom: 13%;
+  display: flex;
+  align-items: center;
 }
 
 .h2-semfep {
   margin: 0;
-  position: absolute;
-  width: 310px;
-  height: 152px;
-  left: 1241px;
-  top: 666px;
-  font-size: 64px;
+  font-size: 3vw;
   font-family: 'Bebas Neue', cursive;
+  
 }
 
-.button-play-sefep {
-  box-sizing: border-box;
-  width: 74px;
-  height: 74px;
-  border-width: 37px 0px 37px 74px;
-  border-color: transparent transparent transparent #202020;
+.button-play-semfep {
   cursor: pointer;
+  margin-left: 15px;
+}
 
+.img-button {
+  width: 6vw;
+  /* min-width: 20px; */
+  height: auto;
+}
+
+.background-semfep {
+  width: 100vw;
+  height: 100vh;
   position: absolute;
-  left: 1599px;
-  top: 709px;
+
 }
