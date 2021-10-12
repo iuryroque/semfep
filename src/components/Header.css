@@ -1,6 +1,6 @@
 .header-Header {
   width: 100vw;
-  height: 15vh;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,26 +15,17 @@
   max-width: 27vw;
   height: auto;
   left: 0px;
-  top: 40px;
+  top: 28px;
   opacity: 1;
 }
 
 .nav-header {
   width: 100%;
   margin-top: 20px;
-  margin-left: 40px;
   font-family: var(--nav-bar-font-family);
+  white-space: nowrap;
   display: flex;
-  justify-self: center;
-  justify-items: center;
   justify-content: center;
-}
-
-.nav-button {
-}
-
-.nav-button:active {
-  background: #cacaca;
 }
 
 .nav-button #pagina-inicial {
@@ -43,35 +34,22 @@
   top: 46px;
 }
 
-.nav-button #enquadrar-trabalho {
-  position: absolute;
-  left: 875px;
-  top: 46px;
-}
-
-.nav-button #contatos {
-  position: absolute;
-  left: 1277px;
-  top: 46px;
-}
-
 .link-header {
   max-width: 15%;
-  height: 7vh;
+  min-width: 150px;
+  padding: 10px;
+  height: auto;
   width: 100%;
-  
   font-family: 'Roboto', sans-serif;
-  font-size: 150%;
+  font-size: 90%;
   background: #f1eded;
   text-decoration: none;
   color: #000000;
   box-sizing: border-box;
   border-radius: 0;
-  border: 1px;
   border: 1px solid #000000;
   cursor: pointer;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
