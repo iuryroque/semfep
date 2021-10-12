@@ -1,6 +1,6 @@
 .header-Header {
   width: 100vw;
-  height: 80px;
+  height: 98px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,7 +12,7 @@
 .img-header {
   position: absolute;
   width: 100%;
-  max-width: 27vw;
+  max-width: 316px;
   height: auto;
   left: 0px;
   top: 28px;
@@ -21,17 +21,10 @@
 
 .nav-header {
   width: 100%;
-  margin-top: 20px;
   font-family: var(--nav-bar-font-family);
   white-space: nowrap;
   display: flex;
   justify-content: center;
-}
-
-.nav-button #pagina-inicial {
-  position: absolute;
-  left: 555px;
-  top: 46px;
 }
 
 .link-header {
