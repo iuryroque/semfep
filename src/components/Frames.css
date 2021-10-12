@@ -1,33 +1,27 @@
-#containerframes {
-  margin: auto;
+#frames-container {
+  width: 80%;
+  min-width: 390px;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: greenyellow;
+}
+
+.auto-grid {
+  --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
 }
 
 .frame {
-  color: white;
-  border: 0;
-  width: 10vw;
-  height: 20vh;
   text-decoration: none;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 2vh;
-}
-
-@media screen and (max-width: 768px) {
-  .frame {
-    width: 30vw;
-    height: 20vh;
-  }
-}
-
-.frame:active {
-  box-shadow: none;
-}
-
-.frame:hover {
-  cursor: pointer;
-}
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  margin: 12px 6%;
 
 .resistencia {
   background-color: var(--resistencia-color);
@@ -59,4 +53,34 @@
 
 .felicidade {
   background-color: var(--felicidade-color);
+}
+
+@media (min-width: 769px){
+  #frames-container {
+    width: 90%;
+    min-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .auto-grid {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+  }
+
+  .frame {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin: 30px 6%;
+  }
+
+  .link-grid-frame {
+    font-size: 14px;
+  }
 }
