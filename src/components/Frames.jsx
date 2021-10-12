@@ -5,51 +5,47 @@ import { Link } from 'react-router-dom'
 class Frames extends React.Component {
   render() {
     return (
-      <section id="frames-container">
-        <div>
-          <label for="resistencia" title="RESISTÊNCIA">
-            <Link className="frame resistencia" id="resistencia">
+      <section className='auto-grid' id="frames-container">
+          <label className='frame resistencia' for="resistencia" title="RESISTÊNCIA">
+            <Link className="link-grid-frame" id="resistencia">
               RESISTÊNCIA
             </Link>
           </label>
-          <label for="seriedade" title="SERIEDADE">
-            <Link className="frame seriedade" id="seriedade">
+          <label className='frame seriedade' for="seriedade" title="SERIEDADE">
+            <Link className="link-grid-frame" id="seriedade">
               SERIEDADE
             </Link>
           </label>
-          <label for="autonomia" title="AUTONOMIA">
-            <Link className="frame autonomia" id="autonomia">
+          <label className='frame autonomia' for="autonomia" title="AUTONOMIA">
+            <Link className="link-grid-frame" id="autonomia">
               AUTONOMIA
             </Link>
           </label>
-          <label for="movimento" title="MOVIMENTO">
-            <Link className="frame movimento" id="movimento">
+          <label className='frame movimento' for="movimento" title="MOVIMENTO">
+            <Link className="link-grid-frame" id="movimento">
               MOVIMENTO
             </Link>
           </label>
-        </div>
-        <div>
-          <label for="felicidade" title="FELICIDADE">
-            <Link className="frame felicidade" id="felicidade">
+          <label className='frame felicidade' for="felicidade" title="FELICIDADE">
+            <Link className="link-grid-frame" id="felicidade">
               FELICIDADE
             </Link>
           </label>
-          <label for="linguagem" title="LINGUAGEM">
-            <Link className="frame linguagem" id="linguagem">
+          <label className='frame linguagem' for="linguagem" title="LINGUAGEM">
+            <Link className="link-grid-frame" id="linguagem">
               LINGUAGEM
             </Link>
           </label>
-          <label for="transformacao" title="TRANSFORMAÇÂO">
-            <Link className="frame transformacao" id="transformacao">
+          <label className='frame transformacao' for="transformacao" title="TRANSFORMAÇÂO">
+            <Link className="link-grid-frame" id="transformacao">
               TRANSFORMAÇÃO
             </Link>
           </label>
-          <label for="saudade" title="SAUDADE">
-            <Link className="frame saudade" id="saudade">
+          <label className='frame saudade' for="saudade" title="SAUDADE">
+            <Link className="link-grid-frame" id="saudade">
               SAUDADE
             </Link>
           </label>
-        </div>
       </section>
     );
   }
