@@ -16,22 +16,14 @@ class Header extends React.Component {
             alt="Logo do sexto Seminário de Formação de Professores em Exercício"
           />
           <nav className="nav-header">
-            <Link>
-              <button className="nav-button" id="pagina-inicial">
-                Página Inicial
-              </button>
+            <Link className='link-header'>
+              Página Inicial
+            </Link>
+            <Link className='link-header'>
+              Enquadrar Trabalho
             </Link>  
-
-            <Link>
-              <button className="nav-button" id="enquandrar-trabalho">
-                Enquadrar Trabalho
-              </button>
-            </Link>  
-
-            <Link to='/semfep/contatos'>
-              <button className="nav-button" id="contatos">
+            <Link to='/semfep/contatos' className='link-header'>
                 Contatos
-              </button>
             </Link>  
           </nav>
         </header>

@@ -12,21 +12,17 @@
 .img-header {
   position: absolute;
   width: 100%;
-  max-width: 25vw;
+  max-width: 27vw;
   height: auto;
   left: 0px;
   top: 40px;
   opacity: 1;
 }
 
-.nav-button {
-  background: #f1eded;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-}
-
 .nav-header {
-  margin: 0;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 40px;
   font-family: var(--nav-bar-font-family);
   display: flex;
   justify-self: center;
@@ -35,15 +31,6 @@
 }
 
 .nav-button {
-  border-radius: 0;
-  border: 1px;
-  max-width: 15%;
-  width: 100%;
-  height: auto;
-  background: #f1eded;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  cursor: pointer;
 }
 
 .nav-button:active {
@@ -66,4 +53,28 @@
   position: absolute;
   left: 1277px;
   top: 46px;
+}
+
+.link-header {
+  max-width: 15%;
+  height: 7vh;
+  width: 100%;
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+  background: #f1eded;
+  text-decoration: none;
+  color: #000000;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 1px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-header:hover {
+  background-color: #cacaca;
 }
