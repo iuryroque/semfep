@@ -22,6 +22,7 @@
   width: 140px;
   height: 140px;
   margin: 12px 6%;
+}
 
 .resistencia {
   background-color: var(--resistencia-color);
