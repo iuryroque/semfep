@@ -10,7 +10,7 @@ function Footer() {
   return(
     <footer className='footer-Footer'>
         <p className='links-footer'>
-          <Link to='/semfep/ficha-tecnica'>Ficha Técnica</Link> | <Link to='/semfep/contatos'>Contatos</Link> 
+          <Link to='/semfep/ficha-tecnica'>Ficha Técnica</Link> <Link>|</Link> <Link to='/semfep/contatos'>Contatos</Link> 
         </p>
       <div className='imgs-container'>
         <img className='img-footer' src= { brasao_ufba } alt="Logo da Faculdade de Educação da UFBA" />
