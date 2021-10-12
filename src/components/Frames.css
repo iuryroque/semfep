@@ -22,17 +22,6 @@
   width: 140px;
   height: 140px;
   margin: 12px 6%;
-}
-
-.frame:hover {
-  cursor: pointer;
-}
-
-.link-grid-frame {
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-}
 
 .resistencia {
   background-color: var(--resistencia-color);
