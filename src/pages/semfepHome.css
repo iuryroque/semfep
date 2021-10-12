@@ -1,33 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .page-semfep {
+  margin: 0;
   background: url('../images/backgrounds/Frame2.png');
-  background-size: cover;
-  background-position: absolute;
+  background-size: 100vw 100vh;
   height: 100vh;
   width: 100vw;
+  display: flex;
 }
+
+@media (max-width: 768px) {
+  .page-semfep {
+    margin: 0;
+    background: url('../images/Android/Android\ 2.png');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
+}
+
+.container-comecar-semfep {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* @media (max-width: 768px) {
+  .container-comecar-semfep {
+    display: none;
+  }
+} */
 
 .h2-semfep {
   margin: 0;
-  position: absolute;
   width: 310px;
   height: 152px;
-  left: 1241px;
-  top: 666px;
   font-size: 64px;
   font-family: 'Bebas Neue', cursive;
+  justify-self: flex-end;
 }
 
-.button-play-sefep {
+.button-play-semfep {
   box-sizing: border-box;
   width: 74px;
   height: 74px;
   border-width: 37px 0px 37px 74px;
   border-color: transparent transparent transparent #202020;
   cursor: pointer;
-
-  position: absolute;
-  left: 1599px;
-  top: 709px;
+  justify-self: flex-end;
 }

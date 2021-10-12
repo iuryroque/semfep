@@ -2,16 +2,15 @@ import '../App.css';
 import './semfepHome.css';
 import { Link } from 'react-router-dom';
 
-
 function SemfepHomePage() {
   return (
     <div className="page-semfep">
-      <div className="comecar-container-semfep">
-        <h2 className='h2-semfep'>
+      <div className="container-comecar-semfep">
+        <h2 className="h2-semfep">
           CLIQUE AQUI <br />
           PARA COMEÇAR
         </h2>
-        <Link to='/semfep/frames'>
+        <Link to="/semfep/frames">
           <button className="button-play-semfep"></button>
         </Link>
       </div>
