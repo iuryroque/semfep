@@ -39,3 +39,11 @@
   align-self: center;
   margin-right: 2vh;
 }
+
+/* @media (min-width: 769px) {
+  .container-frame-description-page {
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+  }
+} */
