@@ -1,68 +1,37 @@
-import React from 'react';
+import React from "react";
+import { Link } from 'react-router-dom'
+import eventLogo from '../images/logo-do-evento.png';
+import './NavBar.css'
+import ButtonMenu from '../images/Android/button-menu.png'
 
-class FramesNav extends React.Component {
-  render() {
-    return (
-      <div>
-        <section id=".container">
-          <ul>
-            <li>
-              <label for="resistencia" title="RESISTÊNCIA">
-                <button className="vertical-frame resistencia" id="resistencia">
-                  RESISTÊNCIA
-                </button>
-              </label>
-            </li>
-            <li>
-              <label for="seriedade" title="SERIEDADE">
-                <button className="vertical-frame seriedade" id="seriedade">
-                  SERIEDADE
-                </button>
-              </label>
-            </li>
-            <li>
-              <label for="autonomia" title="AUTONOMIA">
-                <button className="vertical-frame autonomia" id="autonomia">
-                  AUTONOMIA
-                </button>
-              </label>
-            </li>
-            <li>
-              <label for="movimento" title="MOVIMENTO">
-                <button className="vertical-frame movimento" id="movimento">
-                  MOVIMENTO
-                </button>
-              </label>
-            </li>
-            <li>
-              <label for="felicidade" title="FELICIDADE">
-                <button className="vertical-frame felicidade" id="felicidade">
-                  FELICIDADE
-                </button>
-              </label>
-            </li>
-            <li>
-              <label for="linguagem" title="LINGUAGEM">
-                <button className="vertical-frame linguagem">LINGUAGEM</button>
-              </label>
-            </li>
-            <li>
-              <label for="transformacao" title="TRANSFORMAÇÃO">
-                <button className="vertical-frame transformacao">
-                  TRANSFORMAÇÃO
-                </button>
-              </label>
-            </li>
-            <li>
-              <label for="saudade" title="SAUDADE">
-                <button className="vertical-frame saudade">SAUDADE</button>
-              </label>
-            </li>
-          </ul>
-        </section>
-      </div>
+function NavBar() {
+  return (
+    <div >
+       <img id='img-navbar' src={ eventLogo } alt="" />
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <img class="fas fa-bars" src={ ButtonMenu }/>
+        </label>
+        {/* <label class="logo"></label> */}
+        <ul>
+          <Link class="">
+            <li>Página Inicial</li>
+          </Link>
+          <Link>
+            <li>Enquadrar Trabalho</li>
+          </Link>
+          <Link>
+            <li>Contato</li>
+          </Link>
+          <Link id='ficha-tecnica'>
+            <li>Ficha Técnica
+          </li></Link>
+        </ul>
+      </nav>
+    </div>
     );
   }
-}
-
-export default FramesNav;
+  
+  export default NavBar;
+  

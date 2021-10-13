@@ -1,32 +1,125 @@
-.container {
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	/* font-family: montserrat; */
+  font-size: 2.rem;
+}
+nav {
+	background: #F5F5F5;
+	height: 80px;
+	width: 100%;
+  height: 100px;
+}
+label.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: left;
+	margin-left: 300px;
+  min-width: 750px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 10px 5px 0 0;
+  /* padding: 0px; */
+}
+nav ul a {
+  color: black;
+  border: solid black 1px;
+  padding: 15px 13vh;
+  margin-top: 20px;
+}
+a.active, a:hover {
+	background: #c5c4c4;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+
+#img-navbar {
+  width: 300px;
   position: absolute;
-  width: 278px;
-  height: 687px;
-  left: 72px;
-  top: 220px;
+  margin-top: 22px;
 }
 
-.container ul {
-  list-style-type: none;
+#ficha-tecnica{
+  display: none;
 }
 
-.container button {
-  color: white;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 60px;
-  width: 150px;
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
 }
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
 
-.container button:active {
-  box-shadow: none;
-}
+  nav ul a {
+    border: none;
+    padding: 0px;
+  }
 
-.container button:hover {
-  cursor: pointer;
-}
+  nav ul {
+    min-width: 0px;
+  }
 
-#selected-frame {
-  height: 150px;
-  width: 150px;
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #ffffff;
+		top: 100px;
+		right: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 2vh 0;
+		line-height: 30px;
+    border: solid white 1px;
+    padding: 6vh 0;
+	}
+	nav ul a {
+		font-size: 20px;
+    background-color: white;
+    color: black;
+	}
+	li:hover, li.active {
+    border: solid black 1px;
+	}
+	#check:checked ~ ul {
+		right: 0;
+	}
+  #ficha-tecnica {
+    display: block;
+  }
+
 }
