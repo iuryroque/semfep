@@ -1,24 +1,30 @@
 .side-bar {
-  display: flex;
-  flex-direction: column;
-  width: 140px;
+  display: none;
 }
 
-.btn-side-bar {
-  color: white;
-  border: none;
-  width: 140px;
-  padding: 8px 0;
-  font-size: 14px;
-  /* padding: 1.7vh 0; */
-}
+@media (min-width: 768px) {
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+  }
 
-.selected {
-  height: 100px;
-}
+  .btn-side-bar {
+    color: white;
+    border: none;
+    width: 140px;
+    padding: 8px 0;
+    font-size: 14px;
+    /* padding: 1.7vh 0; */
+  }
 
-.btn-side-bar:hover {
-  border: solid black 2px;
-  padding: 6px 0;
-  box-sizing: border-box;
+  .selected {
+    height: 100px;
+  }
+
+  .btn-side-bar:hover {
+    border: solid black 2px;
+    padding: 6px 0;
+    box-sizing: border-box;
+  }
 }
