@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap%27);
+
+.container-contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* margin: 40% auto; /
+}
+
+.container-title-contacts {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container-moving-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+
+.container-whatsapp {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  / width: 100vw; */
+  justify-content: center;
+  align-items: center;
+}
+
+section label .acesso-whatsapp {
+  text-decoration: none;
+  color: black;
+}
+
+.titulo-contacts {
+  align-self: center;
+}
+
+.logo-mail {
+  height: 43px;
+  width: 43px;
+}
+
+.logo-instagram {
+  height: 40px;
+  width: 40px;
+}
+
+.logo-facebook {
+  height: 55px;
+  width: 55px;
+}
+
+.logo-whatsapp {
+  height: 43px;
+  width: 43px;
+}
+
+@media (min-width: 769px) {
+  .container-contacts {
+    align-items: flex-start;
+    margin-left: 27vw;
+  }
+  .container-moving-icons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container-title-contacts {
+    display: block;
+  }
+
+  .container-externo-wpp {
+  }
+}
+
+.container-contacts {
+  background-color: aqua;
+}
+
+.container-title-contacts {
+  background-color: blueviolet;
+}
+
+.container-moving-icons {
+  background-color: violet;
+}
+
+.container-externo-wpp {
+  background-color: brown;
+}
