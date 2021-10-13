@@ -1,0 +1,17 @@
+.container-datasheet {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  text-align: justify;
+  background-color: white;
+  opacity: 90%;
+  margin: 2% 20%;
+  padding: 0 10px;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    overflow-y: scroll;
+    max-height: 700px;
+  }
+}

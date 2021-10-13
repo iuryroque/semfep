@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Contacts.css';
 
@@ -13,14 +14,19 @@ class Contacts extends React.Component {
       <>
         <section className="container-contacts-icons">
           <h1 className="titulo-contacts">CONTATOS</h1>
-          <img src={logoMail} alt="Enviar e-mail" className="logo-mail" />
+          <a href="mailto:">
+            <img src={logoMail} alt="Enviar e-mail" className="logo-mail" />
+          </a>
           <img src={logoInstagram} alt="Instagram" className="logo-instagram" />
           <img src={logoFacebook} alt="Facebook" className="logo-facebook" />
-          <img
-            src={logoWhatsapp}
-            alt="Acesso ao grupo do Whatsapp"
-            className="logo-mail"
-          />
+          <section className="container-whatsapp">
+            <img
+              src={logoWhatsapp}
+              alt="Acesso ao grupo do Whatsapp"
+              className="logo-mail"
+            />
+            <h2>Acesso ao grupo do WhatsApp</h2>
+          </section>
         </section>
       </>
     );

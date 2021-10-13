@@ -6,10 +6,11 @@
   align-items: center;
   width: 63%;
   align-self: center;
+  background-color: blue;
 }
 
 .titulo-contacts {
-  margin-top: 50px;
+  margin-top: 8vh;
   margin-bottom: 0;
   font-family: 'Imprima', sans-serif;
   font-size: 5vh;
@@ -33,6 +34,12 @@
   margin-bottom: 10px;
 }
 
+.container-whatsapp {
+  display: inline-flex;
+  background-color: aqua;
+  align-items: center;
+}
+
 .logo-whatsapp {
   height: 10vh;
   width: 5vwpx;
@@ -40,6 +47,10 @@
 }
 
 @media (max-width: 768px) {
+  .titulo-contacts {
+    margin-top: 3vh;
+  }
+
   .logo-mail {
     height: 43px;
     width: 43px;

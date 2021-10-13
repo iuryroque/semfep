@@ -3,9 +3,9 @@
   max-height: 700px;
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 70vw;
   text-align: justify;
-  margin: 0 20%;
+  margin: 2% 15%;
   padding: 0 10px;
   background-color: white;
   opacity: 90%;
@@ -17,4 +17,15 @@
 
 .title-framework {
   align-self: center;
+}
+
+@media (max-width: 768px) {
+  .title-framework,
+  .subtitle-framework {
+    text-align: center;
+  }
+
+  .container-framework {
+    max-height: 75vh;
+  }
 }
