@@ -1,13 +1,13 @@
 import '../App.css';
 import './datasheet.css';
 import Footer from '../components/Footer';
-import DataSheet from '../components/Datasheet'
-import Header from '../components/Header';
+import DataSheet from '../components/Datasheet';
+import NavBar from '../components/NavBar';
 
 function DataSheetPage() {
   return (
     <div className="page-datasheet">
-      <Header />
+      <NavBar />
       <DataSheet />
       <Footer />
     </div>
