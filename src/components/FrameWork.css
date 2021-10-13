@@ -1,0 +1,14 @@
+.container-framework {
+  overflow-y: scroll;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle-framework {
+  align-self: center;
+}
+
+.title-framework {
+  align-self: center;
+}
