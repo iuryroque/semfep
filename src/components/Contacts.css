@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
 
 .container-contacts {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  /* margin: 40% auto; /
+  /* margin: 40% auto; */
 }
 
 .container-title-contacts {
@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   font-size: 15px;
-  / width: 100vw; */
+  /* width: 100vw; */
   justify-content: center;
   align-items: center;
 }
