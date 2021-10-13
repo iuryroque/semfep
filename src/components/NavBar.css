@@ -1,20 +1,17 @@
 * {
-	padding: 0;
-	margin: 0;
 	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
 }
 
 body {
 	/* font-family: montserrat; */
   font-size: 2.rem;
 }
-nav {
+.nav-page {
 	background: #F5F5F5;
 	height: 80px;
 	width: 100%;
   height: 100px;
+	
 }
 label.logo {
 	color: white;
@@ -23,21 +20,24 @@ label.logo {
 	padding: 0 100px;
 	font-weight: bold;
 }
-nav ul {
+.nav-page ul {
 	float: left;
-	margin-left: 300px;
-  min-width: 750px;
+	/* margin-left: 300px; */
+	white-space: nowrap;
+	margin: 0 0 0 390px;
+	padding: 0;
+	width: 100%;
 }
-nav ul li {
+.nav-page ul li {
 	display: inline-block;
 	line-height: 80px;
 	margin: 10px 5px 0 0;
   /* padding: 0px; */
 }
-nav ul a {
+.nav-page ul a {
   color: black;
   border: solid black 1px;
-  padding: 15px 13vh;
+  padding: 15px 5vw;
   margin-top: 20px;
 }
 a.active, a:hover {
@@ -58,39 +58,46 @@ a.active, a:hover {
 }
 
 #img-navbar {
-  width: 300px;
+  width: 390px;
   position: absolute;
-  margin-top: 22px;
+  margin-top: 20px;
 }
 
 #ficha-tecnica{
   display: none;
 }
 
+
 @media (max-width: 952px){
 	label.logo{
 		font-size: 30px;
 		padding-left: 50px;
 	}
-	nav ul li a{
+	.nav-page ul li a{
 		font-size: 16px;
 	}
 }
-@media (max-width: 858px){
+@media (max-width: 973px){
+	.nav-page {
+		height: 80px;
+		background-color: transparent;
+	}
+
 	.checkbtn {
 		display: block;
 	}
 
-  nav ul a {
+  .nav-page ul a {
     border: none;
     padding: 0px;
+
   }
 
-  nav ul {
+  .nav-page ul {
     min-width: 0px;
   }
 
-	ul{
+	.ul-nav{
 		position: fixed;
 		width: 100%;
 		height: 100vh;
@@ -100,19 +107,19 @@ a.active, a:hover {
 		text-align: center;
 		transition: all .5s;
 	}
-	nav ul li{
+	.nav-page ul li{
 		display: block;
 		margin: 2vh 0;
 		line-height: 30px;
     border: solid white 1px;
-    padding: 6vh 0;
+    padding: 4vh 0;
 	}
-	nav ul a {
+	.nav-page ul a {
 		font-size: 20px;
     background-color: white;
     color: black;
 	}
-	li:hover, li.active {
+	.li-nav:hover, .li-nav.active {
     border: solid black 1px;
     background-color: white;
 	}
@@ -123,4 +130,7 @@ a.active, a:hover {
     display: block;
   }
 
+	#img-navbar {
+		width: 50vw;
+	}
 }
