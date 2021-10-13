@@ -5,27 +5,31 @@ import './Datasheet.css';
 class Datasheet extends React.Component {
   render() {
     return (
-      <div>
-        <section className="datasheet">
-          <h2>FICHA TÉCNICA</h2>
-          <h3>Web Designer</h3>
+      <div className="container-datasheet">
+        <section>
+          <h1>FICHA TÉCNICA</h1>
+          <h2>Web Designer</h2>
           <p>Lucas do Santos</p>
 
-          <h3>Programação Web </h3>
-          <p>Ulisses Roque</p>
-          <p>Iury Roque</p>
+          <h2>Programação Web </h2>
+          <p>
+            Ulisses Roque <br />
+            Iury Roque
+          </p>
 
-          <h3>Coordenação Artística</h3>
+          <h2>Coordenação Artística</h2>
           <p>Vitor Marques</p>
 
-          <h3>Coordenação do Projeto/ Roteiro / Product Mananger </h3>
+          <h2>Coordenação do Projeto/ Roteiro / Product Mananger </h2>
           <p>Augusto Flávio</p>
 
-          <h3>Coordenação do VI SEMFEP</h3>
-          <p>Maria Inez Carvalho</p>
-          <p>Roseli de Sá</p>
+          <h2>Coordenação do VI SEMFEP</h2>
+          <p>
+            Maria Inez Carvalho <br />
+            Roseli de Sá
+          </p>
 
-          <h3>Composição dos Frames</h3>
+          <h2>Composição dos Frames</h2>
           <p>
             Amarildo dos Santos; Augusto Flávio; Camila Ayala; Carol; Caroline;
             Darty Cléia; Elísio Filho; Emanuela Dourado; Fábio Vieira; Joelma
