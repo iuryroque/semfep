@@ -6,7 +6,7 @@ import ButtonMenu from '../images/Android/button-menu.png'
 
 function NavBar() {
   return (
-    <div >
+    <div className='nav-page' >
        <img id='img-navbar' src={ eventLogo } alt="" />
       <nav>
         <input type="checkbox" id="check" />
@@ -14,18 +14,18 @@ function NavBar() {
           <img class="fas fa-bars" src={ ButtonMenu }/>
         </label>
         {/* <label class="logo"></label> */}
-        <ul>
-          <Link class="">
-            <li>Página Inicial</li>
+        <ul className='ul-nav'>
+          <Link className='a-nav'>
+            <li className='li-nav'>Página Inicial</li>
           </Link>
-          <Link>
-            <li>Enquadrar Trabalho</li>
+          <Link className='a-nav'>
+            <li className='li-nav'>Enquadrar Trabalho</li>
           </Link>
-          <Link>
-            <li>Contato</li>
+          <Link className='a-nav'>
+            <li className='li-nav'>Contato</li>
           </Link>
-          <Link id='ficha-tecnica'>
-            <li>Ficha Técnica
+          <Link className='a-nav' id='ficha-tecnica'>
+            <li className='li-nav'>Ficha Técnica
           </li></Link>
         </ul>
       </nav>
