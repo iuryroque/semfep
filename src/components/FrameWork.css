@@ -3,6 +3,12 @@
   max-height: 700px;
   display: flex;
   flex-direction: column;
+  width: 60vw;
+  text-align: justify;
+  margin: 0 20%;
+  padding: 0 10px;
+  background-color: white;
+  opacity: 90%;
 }
 
 .subtitle-framework {
