@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .container-datasheet {
   display: flex;
   flex-direction: column;
@@ -7,11 +9,17 @@
   opacity: 90%;
   margin: 2% 20%;
   padding: 0 10px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media (max-width: 1366px) {
-  .container {
+  .container-datasheet {
     overflow-y: scroll;
     max-height: 70vh;
+    margin-top: 6.5vh;
+    margin-bottom: 3vh;
+  }
+  .container-datasheet h1 {
+    text-align: center;
   }
 }
