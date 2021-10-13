@@ -4,9 +4,8 @@
   min-height: 32px;
   background: #fff;
   padding: 5px 0;
-  position:absolute;
+  position:fixed;
   bottom:0;
-  
 }
 
 .links-footer a {
