@@ -114,6 +114,7 @@ a.active, a:hover {
 	}
 	li:hover, li.active {
     border: solid black 1px;
+    background-color: white;
 	}
 	#check:checked ~ ul {
 		right: 0;
