@@ -11,7 +11,7 @@ function SemfepHomePage() {
           CLIQUE AQUI <br />
           PARA COMEÇAR
         </h2>
-        <Link className="button-play-semfep" to="/semfep/frames">
+        <Link className="button-play-semfep" to="/visemfep/frames">
           <img className="img-button" src={ButtonPlay} alt="" />
         </Link>
       </div>

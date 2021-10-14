@@ -6,14 +6,14 @@ function SideBar() {
   return (
     <div className="side-bar">
       <div className="container-side">
-        <Link to="/semfep/frames/descricao-linguagem">
+        <Link to="/visemfep/frames/descricao-linguagem">
           <label title="LINGUAGEM" for="linguagem">
             <button id="linguagem" className="btn-side-bar linguagem ">
               LINGUAGEM
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-resistencia">
+        <Link to="/visemfep/frames/descricao-resistencia">
           <label
             title="RESISTÊNCIA"
             for="resistencia"
@@ -24,35 +24,35 @@ function SideBar() {
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-seriedade">
+        <Link to="/visemfep/frames/descricao-seriedade">
           <label title="SERIEDADE" for="seriedade" className="label-side-bar">
             <button id="SERIEDADE" className="btn-side-bar seriedade">
               SERIEDADE
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-autonomia">
+        <Link to="/visemfep/frames/descricao-autonomia">
           <label title="AUTONOMIA" for="autonomia" className="label-side-bar">
             <button id="autonomia" className="btn-side-bar autonomia">
               AUTONOMIA
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-movimento">
+        <Link to="/visemfep/frames/descricao-movimento">
           <label title="MOVIMENTO" for="movimento" className="label-side-bar">
             <button id="movimento" className="btn-side-bar movimento">
               MOVIMENTO
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-felicidade">
+        <Link to="/visemfep/frames/descricao-felicidade">
           <label title="FELICIDADE" for="felicidade" className="label-side-bar">
             <button id="felicidade" className="btn-side-bar felicidade">
               FELICIDADE
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-transformacao">
+        <Link to="/visemfep/frames/descricao-transformacao">
           <label
             title="TRANSFORMAÇÃO"
             for="transformacao"
@@ -63,7 +63,7 @@ function SideBar() {
             </button>
           </label>
         </Link>
-        <Link to="/semfep/frames/descricao-saudade">
+        <Link to="/visemfep/frames/descricao-saudade">
           <label title="SAUDADE" for="saudade" className="label-side-bar">
             <button id="saudade" className="btn-side-bar saudade">
               SAUDADE

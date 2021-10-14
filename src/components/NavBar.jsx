@@ -15,16 +15,20 @@ function NavBar() {
         </label>
         {/* <label class="logo"></label> */}
         <ul className="ul-nav fist-li">
-          <Link to="/semfep/frames" className="a-nav">
+          <Link to="/visemfep/frames" className="a-nav">
             <li className="li-nav">Página Inicial</li>
           </Link>
-          <Link to="/semfep/enquadrar-trabalho" className="a-nav">
+          <Link to="/visemfep/enquadrar-trabalho" className="a-nav">
             <li className="li-nav">Enquadrar Trabalho</li>
           </Link>
-          <Link to="/semfep/contatos" className="a-nav">
+          <Link to="/visemfep/contatos" className="a-nav">
             <li className="li-nav">Contatos</li>
           </Link>
-          <Link to="/semfep/ficha-tecnica" className="a-nav" id="ficha-tecnica">
+          <Link
+            to="/visemfep/ficha-tecnica"
+            className="a-nav"
+            id="ficha-tecnica"
+          >
             <li className="li-nav">Ficha Técnica</li>
           </Link>
         </ul>

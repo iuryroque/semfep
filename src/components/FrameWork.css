@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .container-framework {
   overflow-y: scroll;
   max-height: 700px;
@@ -10,6 +12,7 @@
   padding: 0 10px;
   background-color: white;
   opacity: 0.9;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .subtitle-framework {

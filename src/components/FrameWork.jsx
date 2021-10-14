@@ -19,18 +19,18 @@ class FrameWork extends React.Component {
             problematizar o modo peculiar com que são propagadas pelas redes
             sociais algumas das visões mais comuns sobre a educação brasileira,
             que produzem ou remetem a territórios bem consolidados, como se pode
-            observar pelo uso ostensivo que fazem de palavras de ordem, slogans
-            e hashtags.
+            observar pelo uso ostensivo que fazem de palavras de ordem,{' '}
+            <i>slogans</i> e <i>hashtags</i>.
           </p>
           <p>
             Quem esteve em navegando pelo Instagram ou Facebook nos últimos
             meses, ou por outros lugares do ambiente digital veiculadores dos
             discursos da área da Educação, com olhos atentos, vislumbra certos
             enquadramentos comuns e persistentes, as pequenas peças de
-            divulgação propagadas por ocasião da campanha para Ato Público
-            Nacional Educação Contra a Barbárie, deflagrado pela Universidade
-            Federal da Bahia (maio/2021), é um dos tantos exemplos a que podemos
-            nos remeter.{' '}
+            divulgação propagadas por ocasião da campanha para{' '}
+            <i>Ato Público Nacional Educação Contra a Barbárie</i>, deflagrado
+            pela Universidade Federal da Bahia (maio/2021), é um dos tantos
+            exemplos a que podemos nos remeter.{' '}
           </p>
           <p>
             Neste VI SEMFEP, tomaremos proveito dessas derivas que temos
@@ -41,23 +41,34 @@ class FrameWork extends React.Component {
             sido expostos diuturnamente ao atravessarem as circunstâncias
             geohistóricas em que cada um de nós estamos imersos, e que
             conceituações e teorizações podemos produzir a partir das palavras
-            de ordem e slogans disseminados como pertencentes à educação
+            de ordem e <i>slogans</i> disseminados como pertencentes à educação
             brasileira, aqui, para as finalidades do evento e da submissão de
-            trabalhos, identificadas como <strong>Frames</strong>.
+            trabalhos, identificadas como{' '}
+            <strong>
+              <i>Frames</i>
+            </strong>
+            .
           </p>
           <p>
             Palavra estrangeira cunhada no âmbito da técnica de fotografia e
-            cinema, o frame (lê-se: frei-me), quer dizer em tradução direta
-            “quadro”, é daí que podemos derivar para enquadramento, mas podemos
-            percebê-lo também como um emolduramento, no sentido de que o Frame é
-            uma demarcação do que se vê. Em um texto para a Revista Cult de maio
-            deste ano, que foi a inspiração para a produção VI SEMFEP, o
-            Professor Wilson Gomes define Frame tal como o que “resulta do
-            emprego de um ângulo de abordagem e da adoção de um ponto de vista,
-            (...) uma perspectiva. Por definição, um Frame, um enquadramento,
-            não nos dá toda a paisagem, impondo os limites do que conseguimos
-            ver, mas na nossa experiência nos parece sempre aquela janela pela
-            qual olhamos o mundo [como] está [e] tudo o que poderia ser visto”.
+            cinema, o <i>frame</i> (lê-se: frei-me), quer dizer em tradução
+            direta “quadro”, é daí que podemos derivar para enquadramento, mas
+            podemos percebê-lo também como um emolduramento, no sentido de que o
+            <i>Frame</i> é uma demarcação do que se vê. Em um texto para a
+            <a
+              href="https://revistacult.uol.com.br/home/jacarezinho-conflito-de-interpretacao-sentenca-da-bala/"
+              target="_blank"
+            >
+              Revista Cult
+            </a>{' '}
+            de maio deste ano, que foi a inspiração para a produção VI SEMFEP, o
+            Professor Wilson Gomes define <i>Frame</i> tal como o que “resulta
+            do emprego de um ângulo de abordagem e da adoção de um ponto de
+            vista, (...) uma perspectiva. Por definição, um <i>Frame</i>, um
+            enquadramento, não nos dá toda a paisagem, impondo os limites do que
+            conseguimos ver, mas na nossa experiência nos parece sempre aquela
+            janela pela qual olhamos o mundo [como] está [e] tudo o que poderia
+            ser visto”.
           </p>
           <p>
             Sobre o plano da educação brasileira, o VI SEMFEP delimitou os
@@ -79,38 +90,43 @@ class FrameWork extends React.Component {
           </p>
           <p>
             {' '}
-            <strong>RESISTÊNCIA:</strong> Resistir é preciso?
+            <strong>RESISTÊNCIA:</strong> <i>Resistir é preciso?</i>
           </p>
           <p>
-            <strong>SERIEDADE:</strong> Para que tanta seriedade, quer virar
-            herói ou heroína?
+            <strong>SERIEDADE:</strong>{' '}
+            <i>Para que tanta seriedade, quer virar herói ou heroína?</i>
           </p>
           <p>
-            <strong>MOVIMENTO:</strong> E se movimentar for sempre ter uma pedra
-            no caminho?
+            <strong>MOVIMENTO:</strong>{' '}
+            <i>E se movimentar for sempre ter uma pedra no caminho?</i>
           </p>
           <p>
-            <strong>FELICIDADE:</strong> Tristeza não tem fim, felicidade sim?
+            <strong>FELICIDADE:</strong>{' '}
+            <i>Tristeza não tem fim, felicidade sim?</i>
           </p>
           <p>
-            <strong>AUTONOMIA:</strong> Autonomizar na educação para (continuar
-            a) morrer pela pátria e viver sem razão?
+            <strong>AUTONOMIA:</strong>{' '}
+            <i>
+              Autonomizar na educação para (continuar a) morrer pela pátria e
+              viver sem razão?
+            </i>
           </p>
           <p>
-            <strong>LINGUAGEM:</strong> Viver sem as viradas de páginas ou
-            morrer de lamber os dedos?
+            <strong>LINGUAGEM:</strong>
+            <i>Viver sem as viradas de páginas ou morrer de lamber os dedos?</i>
           </p>
           <p>
-            <strong>TRANSFORMAÇÃO:</strong> E se pra mudar, bastar existir?
+            <strong>TRANSFORMAÇÃO:</strong>{' '}
+            <i>E se pra mudar, bastar existir?</i>
           </p>
           <p>
-            <strong>SAUDADES:</strong> Chega de Saudades?
+            <strong>SAUDADE:</strong> <i>Chega de Saudade?</i>
           </p>
           <p>
             Se você está aqui nesta área dedicada ao enquadrar seu trabalho, é
-            porque já deve ter escolhido um Frame para chamar de seu. Se isso
-            ainda não aconteceu, recomendamos que volte para a{' '}
-            <Link to="/semfep/frames"> página inicial do VI SEMFEP </Link>, e
+            porque já deve ter escolhido um <i>Frame</i> para chamar de seu. Se
+            isso ainda não aconteceu, recomendamos que volte para a{' '}
+            <Link to="/visemfep/frames"> página inicial do VI SEMFEP </Link>, e
             busque por qual perspectiva mais te provoca sensações antes de
             submeter seu trabalho. Mas se ao contrário, você já derivou por
             todos os frames, e os limites para sua paisagem teorizante ou
@@ -123,8 +139,11 @@ class FrameWork extends React.Component {
           <ol>
             <li>
               Você deverá se inscrever no VI SEMFEP através da página do Sistema
-              de Gerenciamento de Eventos da UFBA - GERE (texto com link)
-              (http://www.gere.ufba.br/);
+              de{' '}
+              <a href="http://www.semfep.ufba.br/ " target="_blank">
+                Gerenciamento de Eventos da UFBA - GERE
+              </a>
+              ;
             </li>
             <li>
               Realizada a inscrição, você deverá submeter para apreciação, um

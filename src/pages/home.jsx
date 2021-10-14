@@ -11,7 +11,7 @@ function Home() {
           <img className="img-logo-home" src={imagem} alt="fep logo" />
           <div className="links-home">
             <Link to="/quem-somos">Quem Somos</Link>
-            <Link to="/semfep">SEMFEP</Link>
+            <Link to="/visemfep">SEMFEP</Link>
           </div>
         </nav>
         <hr className="hr-home" />

@@ -34,56 +34,56 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/quem-somos" exact component={Home} />
-        <Route path="/semfep" exact component={SemfepHomePage} />
-        <Route path="/semfep/frames" exact component={FramesPage} />
+        <Route path="/visemfep" exact component={SemfepHomePage} />
+        <Route path="/visemfep/frames" exact component={FramesPage} />
         {/* rotas para as páginas de descrição */}
         <Route
-          path="/semfep/frames/descricao-felicidade"
+          path="/visemfep/frames/descricao-felicidade"
           exact
           component={felicidadePage}
         />
         <Route
-          path="/semfep/frames/descricao-autonomia"
+          path="/visemfep/frames/descricao-autonomia"
           exact
           component={autonomiaPage}
         />
         <Route
-          path="/semfep/frames/descricao-movimento"
+          path="/visemfep/frames/descricao-movimento"
           exact
           component={movimentoPage}
         />
         <Route
-          path="/semfep/frames/descricao-linguagem"
+          path="/visemfep/frames/descricao-linguagem"
           exact
           component={linguagemPage}
         />
         <Route
-          path="/semfep/frames/descricao-seriedade"
+          path="/visemfep/frames/descricao-seriedade"
           exact
           component={seriedadePage}
         />
         <Route
-          path="/semfep/frames/descricao-saudade"
+          path="/visemfep/frames/descricao-saudade"
           exact
           component={saudadePage}
         />
         <Route
-          path="/semfep/frames/descricao-transformacao"
+          path="/visemfep/frames/descricao-transformacao"
           exact
           component={transformacaoPage}
         />
         <Route
-          path="/semfep/frames/descricao-resistencia"
+          path="/visemfep/frames/descricao-resistencia"
           exact
           component={resistenciaPage}
         />
         <Route
-          path="/semfep/enquadrar-trabalho"
+          path="/visemfep/enquadrar-trabalho"
           exact
           component={FrameWorkPage}
         />
-        <Route path="/semfep/contatos" exact component={ContactsPage} />
-        <Route path="/semfep/ficha-tecnica" exact component={DataSheetPage} />
+        <Route path="/visemfep/contatos" exact component={ContactsPage} />
+        <Route path="/visemfep/ficha-tecnica" exact component={DataSheetPage} />
       </Switch>
     </div>
   );
