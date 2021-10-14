@@ -1,7 +1,6 @@
 import '../App.css';
 import './semfepHome.css';
 import { Link } from 'react-router-dom';
-import Frame2 from '../images/backgrounds/Frame2.png';
 import ButtonPlay from '../images/Button-Play.png';
 
 function SemfepHomePage() {

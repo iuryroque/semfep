@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  /* margin: 40% auto; */
+  margin-top: 15vh;
 }
 
 .container-title-contacts {
@@ -63,7 +63,8 @@ section label .acesso-whatsapp {
 @media (min-width: 769px) {
   .container-contacts {
     align-items: flex-start;
-    margin-left: 27vw;
+    margin-left: 30vw;
+    margin-top: 5vh;
   }
   .container-moving-icons {
     flex-direction: column;
@@ -76,9 +77,15 @@ section label .acesso-whatsapp {
 
   .container-externo-wpp {
   }
+
+  .logo-facebook {
+    height: 55px;
+    width: 55px;
+    margin-left: -0.5vw;
+  }
 }
 
-.container-contacts {
+/* .container-contacts {
   background-color: aqua;
 }
 
@@ -92,4 +99,4 @@ section label .acesso-whatsapp {
 
 .container-externo-wpp {
   background-color: brown;
-}
+} */

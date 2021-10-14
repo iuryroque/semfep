@@ -82,7 +82,7 @@ function App() {
           exact
           component={FrameWorkPage}
         />
-        {/* <Route path="/semfep/contatos" exact component={ContactsPage} /> */}
+        <Route path="/semfep/contatos" exact component={ContactsPage} />
         <Route path="/semfep/ficha-tecnica" exact component={DataSheetPage} />
       </Switch>
     </div>
