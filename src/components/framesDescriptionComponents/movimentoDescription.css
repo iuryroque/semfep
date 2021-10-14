@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Roboto+Condensed&display=swap');
+
+.container-frame-description-page {
+  background: url('../images/Android/1Ativo\ 2.png');
+  background-size: 100vw 80vh;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  color: white;
+  overflow-y: scroll;
+}
+
+.container-frame-description {
+  text-align: justify;
+  padding: 5vw;
+}
+
+.frame-description h1 {
+  font-family: 'Imprima', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.subtitle-frame-description {
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.warning-frame-description {
+  border: black 1px solid;
+  margin: 1vh 5vw 3vh 5vw;
+  display: flex;
+}
+
+.warning-sign {
+  width: auto;
+  height: 3vh;
+  align-self: center;
+  margin-right: 2vh;
+}
+
+@media (min-width: 811px) {
+  .container-frame-description-page {
+    background-size: 100% 100%;
+    width: 60%;
+    height: 75%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 15%;
+  }
+  .frame-description h1 {
+    width: 100%;
+  }
+}
