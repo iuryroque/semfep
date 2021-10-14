@@ -4,7 +4,7 @@
   background: url('../../images/Android/5Ativo\ 2.png');
   background-size: 100% 80%;
   width: 100%;
-  max-height: 65vh;
+  max-height: 68vh;
   display: flex;
   color: white;
   overflow-y: scroll;
@@ -29,7 +29,7 @@
 
 .warning-frame-description {
   border: black 1px solid;
-  margin: 1vh 5vw 3vh 5vw;
+  margin: 3vh 5vw 3vh 5vw;
   display: flex;
 }
 

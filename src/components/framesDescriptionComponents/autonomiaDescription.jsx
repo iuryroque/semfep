@@ -32,12 +32,14 @@ class AutonomiaDescription extends React.Component {
               Geraldo Vandré –{' '}
               <i>Canção Pra não dizer que não falei das flores</i> (1968)
             </p>
-          </div>
-          <div className="warning-frame-description">
-            <img className="warning-sign" src={warningSign} alt="Atenção" />
-            <p>
-              Se você não se enquadra em AUTONOMIA, escolha outro <i>Frame</i>.
-            </p>
+
+            <div className="warning-frame-description">
+              <img className="warning-sign" src={warningSign} alt="Atenção" />
+              <p>
+                Se você não se enquadra em AUTONOMIA, escolha outro <i>Frame</i>
+                .
+              </p>
+            </div>
           </div>
         </section>
       </div>

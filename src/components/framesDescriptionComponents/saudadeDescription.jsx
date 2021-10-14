@@ -32,12 +32,13 @@ class SaudadeDescription extends React.Component {
             <p>
               João Gilberto - <i>Chega de Saudade</i> (1959)
             </p>
-          </div>
-          <div className="warning-frame-description">
-            <img className="warning-sign" src={warningSign} alt="Atenção" />
-            <p>
-              Se você não se enquadra em SAUDADE, escolha outro <i>Frame</i>.
-            </p>
+
+            <div className="warning-frame-description">
+              <img className="warning-sign" src={warningSign} alt="Atenção" />
+              <p>
+                Se você não se enquadra em SAUDADE, escolha outro <i>Frame</i>.
+              </p>
+            </div>
           </div>
         </section>
       </div>

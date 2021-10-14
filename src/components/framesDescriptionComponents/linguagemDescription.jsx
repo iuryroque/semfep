@@ -34,12 +34,14 @@ class FramesDescription extends React.Component {
             <p>
               Umberto Eco – <i>O Nome da Rosa</i> (1980)
             </p>
-          </div>
-          <div className="warning-frame-description">
-            <img className="warning-sign" src={warningSign} alt="Atenção" />
-            <p>
-              Se você não se enquadra em LINGUAGEM, escolha outro <i>Frame</i>.
-            </p>
+
+            <div className="warning-frame-description">
+              <img className="warning-sign" src={warningSign} alt="Atenção" />
+              <p>
+                Se você não se enquadra em LINGUAGEM, escolha outro <i>Frame</i>
+                .
+              </p>
+            </div>
           </div>
         </section>
       </div>

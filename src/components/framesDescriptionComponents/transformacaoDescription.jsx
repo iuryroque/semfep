@@ -30,13 +30,14 @@ class TransformacaoDescription extends React.Component {
             <p>
               Braulio Lessa - <i>É preciso Mudar</i> (2020)
             </p>
-          </div>
-          <div className="warning-frame-description">
-            <img className="warning-sign" src={warningSign} alt="Atenção" />
-            <p>
-              Se você não se enquadra em TRANSFORMAÇÃO, escolha outro{' '}
-              <i>Frame</i>.
-            </p>
+
+            <div className="warning-frame-description">
+              <img className="warning-sign" src={warningSign} alt="Atenção" />
+              <p>
+                Se você não se enquadra em TRANSFORMAÇÃO, escolha outro{' '}
+                <i>Frame</i>.
+              </p>
+            </div>
           </div>
         </section>
       </div>

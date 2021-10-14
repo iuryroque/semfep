@@ -30,12 +30,14 @@ class MovimentoDescription extends React.Component {
             <p>
               Carlos Drummond de Andrad - <i>No Meio do Caminho</i> (1928)
             </p>
-          </div>
-          <div className="warning-frame-description">
-            <img className="warning-sign" src={warningSign} alt="Atenção" />
-            <p>
-              Se você não se enquadra em MOVIMENTO, escolha outro <i>Frame</i>.
-            </p>
+
+            <div className="warning-frame-description">
+              <img className="warning-sign" src={warningSign} alt="Atenção" />
+              <p>
+                Se você não se enquadra em MOVIMENTO, escolha outro <i>Frame</i>
+                .
+              </p>
+            </div>
           </div>
         </section>
       </div>

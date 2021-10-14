@@ -34,12 +34,14 @@ class SeriedadeDescription extends React.Component {
             <p>
               Tom Zé – <i>Complexo de Épico</i> (1973)
             </p>
-          </div>
-          <div className="warning-frame-description">
-            <img className="warning-sign" src={warningSign} alt="Atenção" />
-            <p>
-              Se você não se enquadra em SERIEDADE, escolha outro <i>Frame</i>.
-            </p>
+
+            <div className="warning-frame-description">
+              <img className="warning-sign" src={warningSign} alt="Atenção" />
+              <p>
+                Se você não se enquadra em SERIEDADE, escolha outro <i>Frame</i>
+                .
+              </p>
+            </div>
           </div>
         </section>
       </div>

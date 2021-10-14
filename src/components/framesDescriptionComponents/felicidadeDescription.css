@@ -4,7 +4,7 @@
   background: url('../../images/Android/1Ativo\ 2.png');
   background-size: 100vw 80vh;
   width: 100vw;
-  max-height: 65vh;
+  max-height: 68vh;
   display: flex;
   color: white;
   overflow-y: scroll;
@@ -29,7 +29,7 @@
 
 .warning-frame-description {
   border: black 1px solid;
-  margin: 1vh 5vw 3vh 5vw;
+  margin: 3vh 5vw 3vh 5vw;
   display: flex;
 }
 
