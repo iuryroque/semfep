@@ -1,6 +1,6 @@
 import '../App.css';
 import './home.css';
-import imagem from '../images/color-logo.jpg';
+import imagem from '../images/color-logo.png';
 import { Link } from 'react-router-dom';
 
 function Home() {
