@@ -5,6 +5,7 @@ import './SideBar.css'
 function SideBar() {
   return(
     <div className='side-bar'>
+      <div className='container-side'>
       <label title='LINGUAGEM' for='linguagem'>
         <button id='linguagem' className='btn-side-bar linguagem ' >LINGUAGEM</button>
       </label>
@@ -29,6 +30,7 @@ function SideBar() {
       <label title='SAUDADE' for='saudade' className='label-side-bar'>
         <button id='saudade' className='btn-side-bar saudade'>SAUDADE</button>
       </label>
+      </div>
     </div>
   )
 }
