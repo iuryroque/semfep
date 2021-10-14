@@ -1,10 +1,11 @@
 import React from 'react';
-import './Frames.css'
-import { Link } from 'react-router-dom'
+import './Frames.css';
+import { Link } from 'react-router-dom';
 
 class Frames extends React.Component {
   render() {
     return (
+<<<<<<< HEAD
       <div className='container-principal'>
       <section className='auto-grid' id="frames-container">
             <Link className="link-grid-frame resistencia" id="resistencia">

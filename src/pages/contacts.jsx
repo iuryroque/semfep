@@ -1,16 +1,15 @@
 import '../App.css';
 import './contacts.css';
 import Footer from '../components/Footer';
-import Contacts from '../components/Contacts'
+import Contacts from '../components/Contacts';
 
-import Header from '../components/Header';
-
+import NavBar from '../components/NavBar';
 function ContactsPage() {
   return (
     <div className="page-contacts">
-      <Header />
+      <NavBar />
       <Contacts />
-      <Footer  />
+      <Footer />
     </div>
   );
 }
