@@ -14,17 +14,17 @@ function NavBar() {
           <img class="fas fa-bars" src={ ButtonMenu }/>
         </label>
         {/* <label class="logo"></label> */}
-        <ul className='ul-nav'>
-          <Link className='a-nav'>
+        <ul className='ul-nav fist-li'>
+          <Link to='/semfep/pagina-inicial' className='a-nav'>
             <li className='li-nav'>Página Inicial</li>
           </Link>
-          <Link className='a-nav'>
+          <Link to='/semfep/enquadrar' className='a-nav'>
             <li className='li-nav'>Enquadrar Trabalho</li>
           </Link>
-          <Link className='a-nav'>
-            <li className='li-nav'>Contato</li>
+          <Link to='/semfep/contatos' className='a-nav'>
+            <li className='li-nav'>Contatos</li>
           </Link>
-          <Link className='a-nav' id='ficha-tecnica'>
+          <Link to='/semfep/ficha-tecnica' className='a-nav' id='ficha-tecnica'>
             <li className='li-nav'>Ficha Técnica
           </li></Link>
         </ul>

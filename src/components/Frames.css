@@ -68,9 +68,8 @@
   background-color: var(--felicidade-color);
 }
 
-.link-grid-frame {
+.link-grid-frame a{
   color: white;
-
 }
 
 @media (min-width: 1024px){
