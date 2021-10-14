@@ -5,7 +5,7 @@ import './linguagemDescription.css';
 class FramesDescription extends React.Component {
   render() {
     return (
-      <div className="container-frame-description-page">
+      <div className="container-linguagem-description-page">
         <section className="frame-description">
           <h1>LINGUAGEM</h1>
           <div className="container-frame-description">

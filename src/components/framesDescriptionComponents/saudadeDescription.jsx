@@ -5,7 +5,7 @@ import './saudadeDescription.css';
 class SaudadeDescription extends React.Component {
   render() {
     return (
-      <div className="container-frame-description-page">
+      <div className="container-saudade-description-page">
         <section className="frame-description">
           <h1>SAUDADE</h1>
           <div className="container-frame-description">
