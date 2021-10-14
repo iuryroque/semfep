@@ -1,40 +1,40 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './movimentoDescription.css';
 
-class FramesDescription extends React.Component {
+class MovimentoDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
         <section className="frame-description">
-          <h1>FELICIDADE</h1>
+          <h1>Movimento</h1>
           <div className="container-frame-description">
             <p className="subtitle-frame-description">
-              Tristeza não tem fim, felicidade sim?
+              E se movimentar for sempre ter uma pedra no caminho?
             </p>
             <p>
-              Curiosamente em um tempo-espaço intensamente caracterizado como
-              sombrio, a escola é situada em um frame que quer/merece ser feliz,
-              em um clamor humanista marcadadamente desejante de práticas
-              felizes de ensino e aprendizagem. Uma felicidade instrumental,
-              emprestada. Uma identidade feliz que se pretende fixa, reguladora
-              e controladora das contingências, afim de afastar a tristeza.
+              O Frame Movimento se ancora em uma tradicional base humanista que
+              é também metafísica com ambição salvacionista, emancipatória. A
+              mudança é vista como necessária e para alcançá-la não se pode
+              ficar parado, é o movimento. Um movimento em direção à terra
+              prometida. Uma perspectiva teleológica em que os riscos - que
+              metaforicamente estamos chamando de Pedra - são para serem
+              vencidos.
             </p>
             <p>
               {' '}
               <strong>
-                E se o poeta estiver certo, e a tristeza, diferente da
-                felicidade, não tem fim?
+                Mas, e quando aparece uma pedra que vira o caminho?
               </strong>
             </p>
             <p>
-              Vinicius de Moraes – <i>A felicidade</i> (1959)
+              Carlos Drummond de Andrad - <i>No Meio do Caminho</i> (1928)
             </p>
           </div>
           <div className="warning-frame-description">
             <img className="warning-sign" src={warningSign} alt="Atenção" />
             <p>
-              Se você não se enquadra em FELICIDADE, escolha outro <i>Frame</i>.
+              Se você não se enquadra em MOVIMENTO, escolha outro <i>Frame</i>.
             </p>
           </div>
         </section>
@@ -43,4 +43,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default MovimentoDescription;

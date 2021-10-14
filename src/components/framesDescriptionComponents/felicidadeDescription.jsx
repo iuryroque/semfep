@@ -1,8 +1,8 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './felicidadeDescription.css';
 
-class FramesDescription extends React.Component {
+class FelicidadeDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
@@ -43,4 +43,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default FelicidadeDescription;

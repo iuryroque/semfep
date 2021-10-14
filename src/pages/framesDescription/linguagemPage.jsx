@@ -3,20 +3,19 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import SideBar from '../components/SideBar';
-import FramesDescription from '../components/FramesDescription';
-
+import LinguagemDescription from '../../components/framesDescriptionComponents/linguagemDescription';
 import '../App.css';
-import './felicidadePage.css';
+import './linguagemPage.css';
 
-function FramesDescriptionPage() {
+function LinguagemDescriptionPage() {
   return (
     <div className="page-frames-description">
       <NavBar />
       <SideBar />
-      <FramesDescription />
+      <LinguagemDescription />
       <Footer />
     </div>
   );
 }
 
-export default FramesDescriptionPage;
+export default LinguagemDescriptionPage;

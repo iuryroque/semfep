@@ -1,40 +1,44 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './seriedadeDescription.css';
 
-class FramesDescription extends React.Component {
+class SeriedadeDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
         <section className="frame-description">
-          <h1>FELICIDADE</h1>
+          <h1>SERIEDADE</h1>
           <div className="container-frame-description">
             <p className="subtitle-frame-description">
-              Tristeza não tem fim, felicidade sim?
+              Para que tanta seriedade, quer virar herói ou heroína?
             </p>
             <p>
-              Curiosamente em um tempo-espaço intensamente caracterizado como
-              sombrio, a escola é situada em um frame que quer/merece ser feliz,
-              em um clamor humanista marcadadamente desejante de práticas
-              felizes de ensino e aprendizagem. Uma felicidade instrumental,
-              emprestada. Uma identidade feliz que se pretende fixa, reguladora
-              e controladora das contingências, afim de afastar a tristeza.
+              De um modo peculiar, este frame se pronuncia em relação aos
+              imperativos de expressiva seriedade que tomam lugar nas
+              manifestações públicas em defesa da educação. Desterritorializando
+              Tom Zé, se percebe o quanto toda essa “mania de ser tão sério, de
+              parecer tão sério”, de sorrir e chorar tão sério, é uma
+              característica desse tal professor brasileiro complexado com sua
+              “vontade de parecer herói”, sina trágica ao modo dialético. De uma
+              perspectiva aristotélica, o império do trágico implica
+              necessariamente no aparecimento da figura heroica. É apenas nas
+              tramas da tragédia, superiores às das comédias, que podem devir os
+              temas sérios, e é aos heróis trágicos que está reservada a nobreza
+              de caráter, qualidades embaladas por uma sentença de morte ou pela
+              autopunição.
             </p>
             <p>
               {' '}
-              <strong>
-                E se o poeta estiver certo, e a tristeza, diferente da
-                felicidade, não tem fim?
-              </strong>
+              <strong>E aí, quer virar herói ou heroína?</strong>
             </p>
             <p>
-              Vinicius de Moraes – <i>A felicidade</i> (1959)
+              Tom Zé – <i>Complexo de Épico</i> (1973)
             </p>
           </div>
           <div className="warning-frame-description">
             <img className="warning-sign" src={warningSign} alt="Atenção" />
             <p>
-              Se você não se enquadra em FELICIDADE, escolha outro <i>Frame</i>.
+              Se você não se enquadra em SERIEDADE, escolha outro <i>Frame</i>.
             </p>
           </div>
         </section>
@@ -43,4 +47,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default SeriedadeDescription;

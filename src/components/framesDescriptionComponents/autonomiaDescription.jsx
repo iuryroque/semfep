@@ -1,40 +1,42 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './autonomiaDescription.css';
 
-class FramesDescription extends React.Component {
+class AutonomiaDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
         <section className="frame-description">
-          <h1>FELICIDADE</h1>
+          <h1>AUTONOMIA</h1>
           <div className="container-frame-description">
             <p className="subtitle-frame-description">
-              Tristeza não tem fim, felicidade sim?
+              Autonomizar na educação para (continuar a) morrer pela pátria e
+              viver sem razão?
             </p>
             <p>
-              Curiosamente em um tempo-espaço intensamente caracterizado como
-              sombrio, a escola é situada em um frame que quer/merece ser feliz,
-              em um clamor humanista marcadadamente desejante de práticas
-              felizes de ensino e aprendizagem. Uma felicidade instrumental,
-              emprestada. Uma identidade feliz que se pretende fixa, reguladora
-              e controladora das contingências, afim de afastar a tristeza.
+              No Frame Autonomia vamos de Geraldo Vandré e sua viralizada música
+              de 1968: Pra não dizer que não falei das flores/Caminhando. Neste
+              Frame, hegemoniza-se e legitima-se significações de Autonomia, que
+              mesmo deslizantes entre si, fecham-se na ideia de liberdade como a
+              condição de - sem ou minimizando as amarras -
+              saber/conseguir/poder fazer, condição esta alcançada pela
+              conscientização, pelo empoderamento, pelo centramento humanista.
             </p>
             <p>
               {' '}
               <strong>
-                E se o poeta estiver certo, e a tristeza, diferente da
-                felicidade, não tem fim?
+                E você, vai querer morrer/viver pela pátria com razão?
               </strong>
             </p>
             <p>
-              Vinicius de Moraes – <i>A felicidade</i> (1959)
+              Geraldo Vandré –{' '}
+              <i>Canção Pra não dizer que não falei das flores</i> (1968)
             </p>
           </div>
           <div className="warning-frame-description">
             <img className="warning-sign" src={warningSign} alt="Atenção" />
             <p>
-              Se você não se enquadra em FELICIDADE, escolha outro <i>Frame</i>.
+              Se você não se enquadra em AUTONOMIA, escolha outro <i>Frame</i>.
             </p>
           </div>
         </section>
@@ -43,4 +45,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default AutonomiaDescription;

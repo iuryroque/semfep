@@ -3,20 +3,20 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import SideBar from '../components/SideBar';
-import FramesDescription from '../components/FramesDescription';
+import AutonomiaDescription from '../../components/framesDescriptionComponents/autonomiaDescription';
 
 import '../App.css';
-import './felicidadePage.css';
+import './autonomiaPage.css';
 
-function FramesDescriptionPage() {
+function AutonomiaDescriptionPage() {
   return (
     <div className="page-frames-description">
       <NavBar />
       <SideBar />
-      <FramesDescription />
+      <AutonomiaDescription />
       <Footer />
     </div>
   );
 }
 
-export default FramesDescriptionPage;
+export default AutonomiaDescriptionPage;

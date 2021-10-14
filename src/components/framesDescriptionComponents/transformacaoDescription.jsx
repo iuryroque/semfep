@@ -1,40 +1,41 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './transformacaoDescription.css';
 
-class FramesDescription extends React.Component {
+class TransformacaoDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
         <section className="frame-description">
-          <h1>FELICIDADE</h1>
+          <h1>TRANSFORMAÇÃO</h1>
           <div className="container-frame-description">
             <p className="subtitle-frame-description">
-              Tristeza não tem fim, felicidade sim?
+              E se pra mudar, bastar existir?
             </p>
             <p>
-              Curiosamente em um tempo-espaço intensamente caracterizado como
-              sombrio, a escola é situada em um frame que quer/merece ser feliz,
-              em um clamor humanista marcadadamente desejante de práticas
-              felizes de ensino e aprendizagem. Uma felicidade instrumental,
-              emprestada. Uma identidade feliz que se pretende fixa, reguladora
-              e controladora das contingências, afim de afastar a tristeza.
+              Este frame projetando normatividades instituídas, parece focar nos
+              360 ângulos da câmara para uma perspectiva de transformação com
+              direção única, e como propósito último promotor de um modo
+              universalizante e redentor de educar em busca de um admirável
+              futuro melhor. Temos, sim, alterações gráficas: Educação
+              Transforma. Educação Transforma! Educação transforma?
             </p>
             <p>
               {' '}
               <strong>
-                E se o poeta estiver certo, e a tristeza, diferente da
-                felicidade, não tem fim?
+                Recitando Braulio Bessa que para mudar basta existir, podemos
+                perguntar: Então, toda educação é transformadora?
               </strong>
             </p>
             <p>
-              Vinicius de Moraes – <i>A felicidade</i> (1959)
+              Braulio Lessa - <i>É preciso Mudar</i> (2020)
             </p>
           </div>
           <div className="warning-frame-description">
             <img className="warning-sign" src={warningSign} alt="Atenção" />
             <p>
-              Se você não se enquadra em FELICIDADE, escolha outro <i>Frame</i>.
+              Se você não se enquadra em TRANSFORMAÇÃO, escolha outro{' '}
+              <i>Frame</i>.
             </p>
           </div>
         </section>
@@ -43,4 +44,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default TransformacaoDescription;

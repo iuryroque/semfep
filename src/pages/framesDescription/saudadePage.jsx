@@ -3,20 +3,20 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import SideBar from '../components/SideBar';
-import FramesDescription from '../components/FramesDescription';
+import SaudadeDescription from '../../components/framesDescriptionComponents/SaudadeDescription';
 
 import '../App.css';
-import './felicidadePage.css';
+import './saudadePage.css';
 
-function FramesDescriptionPage() {
+function SaudadeDescriptionPage() {
   return (
     <div className="page-frames-description">
       <NavBar />
       <SideBar />
-      <FramesDescription />
+      <SaudadeDescription />
       <Footer />
     </div>
   );
 }
 
-export default FramesDescriptionPage;
+export default SaudadeDescriptionPage;

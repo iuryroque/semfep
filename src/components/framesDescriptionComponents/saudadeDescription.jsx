@@ -1,40 +1,42 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './saudadeDescription.css';
 
-class FramesDescription extends React.Component {
+class SaudadeDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
         <section className="frame-description">
-          <h1>FELICIDADE</h1>
+          <h1>SAUDADE</h1>
           <div className="container-frame-description">
-            <p className="subtitle-frame-description">
-              Tristeza não tem fim, felicidade sim?
+            <p className="subtitle-frame-description"></p>
+            <p>
+              O frame é constituído de provocações de outras lugaridades
+              educacionais. Lugaridades, muitas vezes, sem concretude, em corpos
+              afetivamente des-territorializados. É assim com a saudade da
+              Escola Pública Brasileira situada em um antigamente não
+              temporalmente definido. Tem sido assim com a saudade da escola
+              pré-pandêmica. Saudades de um passado localizado no presente.
+              Saudades da escola que há de vir, com tudo que transformaremos,
+              movimentaremos, libertaremos autonomamente, localizada no desejo
+              do presente.
             </p>
             <p>
-              Curiosamente em um tempo-espaço intensamente caracterizado como
-              sombrio, a escola é situada em um frame que quer/merece ser feliz,
-              em um clamor humanista marcadadamente desejante de práticas
-              felizes de ensino e aprendizagem. Uma felicidade instrumental,
-              emprestada. Uma identidade feliz que se pretende fixa, reguladora
-              e controladora das contingências, afim de afastar a tristeza.
+              Para emplacar a bossa-nova, na virada dos 50s para os 60s, João
+              Gilberto, com uma nota só, convocava: Chega de saudade.
             </p>
             <p>
               {' '}
-              <strong>
-                E se o poeta estiver certo, e a tristeza, diferente da
-                felicidade, não tem fim?
-              </strong>
+              <strong>E aí professores: chega de uma certa saudade?</strong>
             </p>
             <p>
-              Vinicius de Moraes – <i>A felicidade</i> (1959)
+              João Gilberto - <i>Chega de Saudade</i> (1959)
             </p>
           </div>
           <div className="warning-frame-description">
             <img className="warning-sign" src={warningSign} alt="Atenção" />
             <p>
-              Se você não se enquadra em FELICIDADE, escolha outro <i>Frame</i>.
+              Se você não se enquadra em SAUDADE, escolha outro <i>Frame</i>.
             </p>
           </div>
         </section>
@@ -43,4 +45,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default SaudadeDescription;

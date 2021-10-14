@@ -3,20 +3,20 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import SideBar from '../components/SideBar';
-import FramesDescription from '../components/FramesDescription';
+import ResistenciaDescription from '../../components/framesDescriptionComponents/resistenciaDescription';
 
 import '../App.css';
-import './felicidadePage.css';
+import './resistenciaPage.css';
 
-function FramesDescriptionPage() {
+function ResistenciaDescriptionPage() {
   return (
     <div className="page-frames-description">
       <NavBar />
       <SideBar />
-      <FramesDescription />
+      <ResistenciaDescription />
       <Footer />
     </div>
   );
 }
 
-export default FramesDescriptionPage;
+export default ResistenciaDescriptionPage;

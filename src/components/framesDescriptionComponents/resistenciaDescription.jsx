@@ -1,40 +1,45 @@
 import React from 'react';
 import warningSign from '../images/warning.png';
-import './FramesDescription.css';
+import './resistenciaDescription.css';
 
-class FramesDescription extends React.Component {
+class ResistenciaDescription extends React.Component {
   render() {
     return (
       <div className="container-frame-description-page">
         <section className="frame-description">
-          <h1>FELICIDADE</h1>
+          <h1>RESISTÊNCIA</h1>
           <div className="container-frame-description">
-            <p className="subtitle-frame-description">
-              Tristeza não tem fim, felicidade sim?
+            <p className="subtitle-frame-description">Resistir é preciso?</p>
+            <p>
+              Este frame é fundamentalmente político, e sugere que resistir é
+              preciso em um tempo-espaço de luta que homogeniza, anacroniza e
+              compete entre si na produção de realidades resistentes.
             </p>
             <p>
-              Curiosamente em um tempo-espaço intensamente caracterizado como
-              sombrio, a escola é situada em um frame que quer/merece ser feliz,
-              em um clamor humanista marcadadamente desejante de práticas
-              felizes de ensino e aprendizagem. Uma felicidade instrumental,
-              emprestada. Uma identidade feliz que se pretende fixa, reguladora
-              e controladora das contingências, afim de afastar a tristeza.
+              A busca por modos de conhecer situados, corporificados, ecoado
+              outras vozes, revelando outros corpos/sujeitos curriculantes faz
+              emergir questões tais como: Que projeto de educação disputamos e
+              resistimos? Como e com quem vivemos e resistimos? Como as lutas
+              que lutamos ressoam em nós e nos currículos que produzimos? Que
+              sociedade queremos viver, amar, educar?
             </p>
             <p>
               {' '}
               <strong>
-                E se o poeta estiver certo, e a tristeza, diferente da
-                felicidade, não tem fim?
+                Com tantas perguntas, como não clamar por Fernando Pessoa: Viver
+                é preciso?
               </strong>
             </p>
             <p>
-              Vinicius de Moraes – <i>A felicidade</i> (1959)
+              Fernando Pessoa - <i>Navegar é preciso, viver não é preciso</i>{' '}
+              (1914)
             </p>
           </div>
           <div className="warning-frame-description">
             <img className="warning-sign" src={warningSign} alt="Atenção" />
             <p>
-              Se você não se enquadra em FELICIDADE, escolha outro <i>Frame</i>.
+              Se você não se enquadra em RESISTÊNCIA, escolha outro <i>Frame</i>
+              .
             </p>
           </div>
         </section>
@@ -43,4 +48,4 @@ class FramesDescription extends React.Component {
   }
 }
 
-export default FramesDescription;
+export default ResistenciaDescription;
