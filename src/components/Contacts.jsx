@@ -34,7 +34,11 @@ class Contacts extends React.Component {
               </a>
             </label>
             <label for="facebook" title="Acesso ao Facebook do SemFEP">
-              <a href="#facebook" id="facebook" target="_blank">
+              <a
+                href="https://www.facebook.com/fepufba-102256742246897"
+                id="facebook"
+                target="_blank"
+              >
                 <img
                   src={logoFacebook}
                   alt="Facebook"
