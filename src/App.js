@@ -32,8 +32,8 @@ function App() {
       {/* <FrameWorkPage /> */}
 
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/quem-somos" exact component={Home} />
+        <Route path="/" exact component={SemfepHomePage} />
+        {/* <Route path="/quem-somos" exact component={Home} /> */}
         <Route path="/visemfep" exact component={SemfepHomePage} />
         <Route path="/visemfep/frames" exact component={FramesPage} />
         {/* rotas para as páginas de descrição */}
