@@ -76,13 +76,13 @@
 @media (min-width: 1024px){
   .container-principal {
     height: 70%;
-    background-color: rgba(255, 0, 0, 0.664);
+    /* background-color: rgba(255, 0, 0, 0.664); */
   }
 
   #frames-container {
     width: 70%;
     align-items: center;
-    background-color: rgba(172, 255, 47, 0.678);
+    /* background-color: rgba(172, 255, 47, 0.678); */
   }
 
   .link-grid-frame {
