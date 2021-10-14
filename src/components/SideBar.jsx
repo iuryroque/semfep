@@ -5,7 +5,7 @@ import './SideBar.css'
 function SideBar() {
   return(
     <div className='side-bar'>
-      <div className='container'>
+      <div className='container-side'>
       <label title='LINGUAGEM' for='linguagem'>
         <button id='linguagem' className='btn-side-bar linguagem ' >LINGUAGEM</button>
       </label>
