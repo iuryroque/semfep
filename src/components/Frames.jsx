@@ -68,12 +68,8 @@ class Frames extends React.Component {
             className="link-grid-frame transformacao"
             id="transformacao"
           >
-            <label
-              className="viframe"
-              for="transformacao"
-              title="TRANSFORMAÇÂO"
-            >
-              <Link to="/semfep/frames/descricao-transformacao">
+            <label className="frame" for="transformacao" title="TRANSFORMAÇÂO">
+              <Link to="/visemfep/frames/descricao-transformacao">
                 TRANSFORMAÇÃO
               </Link>
             </label>
