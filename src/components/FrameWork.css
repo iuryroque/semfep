@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   width: 70vw;
-  max-height: 70vh;
+  max-height: 75vh;
   text-align: justify;
   margin: 2% 15%;
   padding: 0 10px;
@@ -23,6 +23,12 @@
   align-self: center;
 }
 
+@media (min-width: 769px) and (max-width: 1366px) {
+  .container-framework {
+    max-height: 67vh;
+  }
+}
+
 @media (max-width: 768px) {
   .title-framework,
   .subtitle-framework {
@@ -30,6 +36,6 @@
   }
 
   .container-framework {
-    max-height: 75vh;
+    max-height: 73vh;
   }
 }
