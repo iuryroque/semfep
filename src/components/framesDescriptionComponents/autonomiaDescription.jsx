@@ -5,7 +5,7 @@ import './autonomiaDescription.css';
 class AutonomiaDescription extends React.Component {
   render() {
     return (
-      <div className="container-frame-description-page">
+      <div className="container-autonomia-description-page">
         <section className="frame-description">
           <h1>AUTONOMIA</h1>
           <div className="container-frame-description">

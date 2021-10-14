@@ -5,7 +5,7 @@ import './resistenciaDescription.css';
 class ResistenciaDescription extends React.Component {
   render() {
     return (
-      <div className="container-frame-description-page">
+      <div className="container-resistencia-description-page">
         <section className="frame-description">
           <h1>RESISTÊNCIA</h1>
           <div className="container-frame-description">

@@ -5,7 +5,7 @@ import './transformacaoDescription.css';
 class TransformacaoDescription extends React.Component {
   render() {
     return (
-      <div className="container-frame-description-page">
+      <div className="container-transformacao-description-page">
         <section className="frame-description">
           <h1>TRANSFORMAÇÃO</h1>
           <div className="container-frame-description">

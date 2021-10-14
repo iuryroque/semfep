@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Roboto+Condensed&display=swap');
 
-.container-frame-description-page {
+.container-saudade-description-page {
   background: url('../../images/Android/7Ativo\ 2.png');
   background-size: 100vw 80vh;
   width: 100vw;
@@ -41,7 +41,7 @@
 }
 
 @media (min-width: 811px) {
-  .container-frame-description-page {
+  .container-saudade-description-page {
     background-size: 100% 100%;
     width: 60%;
     height: 75%;

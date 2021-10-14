@@ -5,7 +5,7 @@ import './movimentoDescription.css';
 class MovimentoDescription extends React.Component {
   render() {
     return (
-      <div className="container-frame-description-page">
+      <div className="container-movimento-description-page">
         <section className="frame-description">
           <h1>Movimento</h1>
           <div className="container-frame-description">
