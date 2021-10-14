@@ -4,7 +4,7 @@
   background: url('../../images/Android/2Ativo\ 2.png');
   background-size: 100vw 80vh;
   width: 100vw;
-  height: 80vh;
+  max-height: 65vh;
   display: flex;
   color: white;
   overflow-y: scroll;
