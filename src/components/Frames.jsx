@@ -25,34 +25,60 @@ class Frames extends React.Component {
               <Link to="/semfep/frames/descricao-seriedade">SERIEDADE</Link>
             </label>
           </Link>
-          <Link className="link-grid-frame autonomia" id="autonomia">
+          <Link
+            to="/semfep/frames/descricao-autonomia"
+            className="link-grid-frame autonomia"
+            id="autonomia"
+          >
             <label className="frame" for="autonomia" title="AUTONOMIA">
-              <Link>AUTONOMIA</Link>
+              <Link to="/semfep/frames/descricao-autonomia">AUTONOMIA</Link>
             </label>
           </Link>
-          <Link className="link-grid-frame movimento" id="movimento">
+          <Link
+            to="/semfep/frames/descricao-movimento"
+            className="link-grid-frame movimento"
+            id="movimento"
+          >
             <label className="frame" for="movimento" title="MOVIMENTO">
-              <Link>MOVIMENTO</Link>
+              <Link to="/semfep/frames/descricao-movimento">MOVIMENTO</Link>
             </label>
           </Link>
-          <Link className="link-grid-frame felicidade" id="felicidade">
+          <Link
+            to="/semfep/frames/descricao-felicidade"
+            className="link-grid-frame felicidade"
+            id="felicidade"
+          >
             <label className="frame" for="felicidade" title="FELICIDADE">
-              <Link>FELICIDADE</Link>
+              <Link to="/semfep/frames/descricao-felicidade">FELICIDADE</Link>
             </label>
           </Link>
-          <Link className="link-grid-frame linguagem" id="linguagem">
+          <Link
+            to="/semfep/frames/descricao-linguagem"
+            className="link-grid-frame linguagem"
+            id="linguagem"
+          >
             <label className="frame" for="linguagem" title="LINGUAGEM">
-              <Link>LINGUAGEM</Link>
+              <Link to="/semfep/frames/descricao-linguagem">LINGUAGEM</Link>
             </label>
           </Link>
-          <Link className="link-grid-frame transformacao" id="transformacao">
+          <Link
+            to="/semfep/frames/descricao-transformacao"
+            className="link-grid-frame transformacao"
+            id="transformacao"
+          >
             <label className="frame" for="transformacao" title="TRANSFORMAÇÂO">
-              <Link>TRANSFORMAÇÃO</Link>
+              <Link to="/semfep/frames/descricao-transformacao">
+                TRANSFORMAÇÃO
+              </Link>
             </label>
           </Link>
-          <Link className="link-grid-frame saudade" id="saudade">
+          <Link
+            to="/semfep/frames/descricao-saudade"
+            className="link-grid-frame saudade"
+            id="saudade"
+          >
             <label className="frame" for="saudade" title="SAUDADE">
-              <Link>SAUDADE</Link>
+              <Link to="/semfep/frames/descricao-saudade">SAUDADE</Link>
             </label>
           </Link>
         </section>
