@@ -4,7 +4,7 @@ import Home from './pages/home';
 import SemfepHomePage from './pages/semfepHome';
 import FramesPage from './pages/frames';
 import FramesDescriptionPage from './pages/framesDescription';
-import FramesDescription2Page from './pages/framesDescription2';
+// import FramesDescription2Page from './pages/framesDescription/framesDescription2';
 import FrameWorkPage from './pages/frameWork';
 import ContactsPage from './pages/contacts';
 import DataSheetPage from './pages/datasheet';

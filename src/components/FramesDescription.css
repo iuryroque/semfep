@@ -40,10 +40,16 @@
   margin-right: 2vh;
 }
 
-/* @media (min-width: 769px) {
+@media (min-width: 811px) {
   .container-frame-description-page {
-    width: 70vw;
-    height: 70vh;
-    margin: 0 auto;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 75%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 15%;
   }
-} */
+  .frame-description h1 {
+    width: 100%;
+  }
+}
