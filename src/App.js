@@ -27,11 +27,9 @@ function App() {
         <Route path="/quem-somos" exact component={Home} />
         <Route path="/semfep" exact component={SemfepHomePage} />
         <Route path="/semfep/frames" exact component={FramesPage} />
-        <Route
-          path="/semfep/frames-descricao-felicidade"
-          exact
-          component={FramesDescriptionPage}
-        />
+        <Route path="/semfep/frames-descricao-felicidade" exact component={FramesDescriptionPage} />
+        <Route path="/semfep/pagina-inicial" exact component={FramesPage} />
+        <Route path="/semfep/enquadrar" exact component={FrameWorkPage} />
         <Route path="/semfep/contatos" exact component={ContactsPage} />
         <Route path="/semfep/ficha-tecnica" exact component={DataSheetPage} />
       </Switch>

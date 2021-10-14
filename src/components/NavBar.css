@@ -41,7 +41,7 @@ label.logo {
   padding: 15px 5vw;
   margin-top: 20px;
 }
-a.active, a:hover {
+.nav-page ul a.active, .nav-page ul a:hover {
 	background: #c5c4c4;
 	transition: .5s;
 }
