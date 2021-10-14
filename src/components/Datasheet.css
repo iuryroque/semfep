@@ -6,15 +6,15 @@
   width: 60vw;
   text-align: justify;
   background-color: white;
-  opacity: 90%;
+  opacity: 0.9;
   margin: 2% 20%;
   padding: 0 10px;
   font-family: 'Roboto Condensed', sans-serif;
+  overflow-y: scroll;
 }
 
 @media (max-width: 1366px) {
   .container-datasheet {
-    overflow-y: scroll;
     max-height: 70vh;
     margin-top: 6.5vh;
     margin-bottom: 3vh;
