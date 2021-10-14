@@ -1,5 +1,5 @@
 import React from 'react';
-import warningSign from '../images/warning.png';
+import warningSign from '../../images/warning.png';
 import './seriedadeDescription.css';
 
 class SeriedadeDescription extends React.Component {

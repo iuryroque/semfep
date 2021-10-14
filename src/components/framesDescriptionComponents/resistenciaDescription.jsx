@@ -1,5 +1,5 @@
 import React from 'react';
-import warningSign from '../images/warning.png';
+import warningSign from '../../images/warning.png';
 import './resistenciaDescription.css';
 
 class ResistenciaDescription extends React.Component {

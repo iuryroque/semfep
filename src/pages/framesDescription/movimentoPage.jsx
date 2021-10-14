@@ -1,11 +1,11 @@
 import React from 'react';
 
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import SideBar from '../components/SideBar';
+import NavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
+import SideBar from '../../components/SideBar';
 import MovimentoDescription from '../../components/framesDescriptionComponents/movimentoDescription';
 
-import '../App.css';
+import '../../App.css';
 import './movimentoPage.css';
 
 function MovimentoDescriptionPage() {
