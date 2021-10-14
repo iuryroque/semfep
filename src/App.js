@@ -19,17 +19,17 @@ function App() {
       {/* <FramesDescriptionPage /> */}
       {/* <FramesDescription2Page /> */}
       {/* <ContactsPage /> */}
-      <DataSheetPage />
+      {/* <DataSheetPage /> */}
       {/* <FrameWorkPage /> */}
 
-      {/* <Switch>
+      <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/quem-somos" exact component={Home} />
         <Route path="/semfep" exact component={SemfepHomePage} />
         <Route path="/semfep/frames" exact component={FramesPage} />
         <Route path="/semfep/contatos" exact component={ContactsPage} />
         <Route path="/semfep/ficha-tecnica" exact component={DataSheetPage} />
-      </Switch> */}
+      </Switch>
     </div>
   );
 }

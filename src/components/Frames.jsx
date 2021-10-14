@@ -5,48 +5,50 @@ import { Link } from 'react-router-dom'
 class Frames extends React.Component {
   render() {
     return (
+      <div className='container-principal'>
       <section className='auto-grid' id="frames-container">
-          <label className='frame resistencia' for="resistencia" title="RESISTÊNCIA">
-            <Link className="link-grid-frame" id="resistencia">
+            <Link className="link-grid-frame resistencia" id="resistencia">
+          <label className='frame' for="resistencia" title="RESISTÊNCIA">
               RESISTÊNCIA
-            </Link>
           </label>
-          <label className='frame seriedade' for="seriedade" title="SERIEDADE">
-            <Link className="link-grid-frame" id="seriedade">
+            </Link>
+            <Link className="link-grid-frame seriedade" id="seriedade">
+          <label className='frame' for="seriedade" title="SERIEDADE">
               SERIEDADE
-            </Link>
           </label>
-          <label className='frame autonomia' for="autonomia" title="AUTONOMIA">
-            <Link className="link-grid-frame" id="autonomia">
+            </Link>
+            <Link className="link-grid-frame autonomia" id="autonomia">
+          <label className='frame' for="autonomia" title="AUTONOMIA">
               AUTONOMIA
-            </Link>
           </label>
-          <label className='frame movimento' for="movimento" title="MOVIMENTO">
-            <Link className="link-grid-frame" id="movimento">
+            </Link>
+            <Link className="link-grid-frame movimento" id="movimento">
+          <label className='frame' for="movimento" title="MOVIMENTO">
               MOVIMENTO
-            </Link>
           </label>
-          <label className='frame felicidade' for="felicidade" title="FELICIDADE">
-            <Link className="link-grid-frame" id="felicidade">
+            </Link>
+            <Link className="link-grid-frame felicidade" id="felicidade">
+          <label className='frame' for="felicidade" title="FELICIDADE">
               FELICIDADE
-            </Link>
           </label>
-          <label className='frame linguagem' for="linguagem" title="LINGUAGEM">
-            <Link className="link-grid-frame" id="linguagem">
+            </Link>
+            <Link className="link-grid-frame linguagem" id="linguagem">
+          <label className='frame' for="linguagem" title="LINGUAGEM">
               LINGUAGEM
-            </Link>
           </label>
-          <label className='frame transformacao' for="transformacao" title="TRANSFORMAÇÂO">
-            <Link className="link-grid-frame" id="transformacao">
+            </Link>
+            <Link className="link-grid-frame transformacao" id="transformacao">
+          <label className='frame' for="transformacao" title="TRANSFORMAÇÂO">
               TRANSFORMAÇÃO
-            </Link>
           </label>
-          <label className='frame saudade' for="saudade" title="SAUDADE">
-            <Link className="link-grid-frame" id="saudade">
+            </Link>
+            <Link className="link-grid-frame saudade" id="saudade">
+          <label className='frame' for="saudade" title="SAUDADE">
               SAUDADE
-            </Link>
           </label>
+            </Link>
       </section>
+      </div>
     );
   }
 }

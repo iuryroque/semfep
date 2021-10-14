@@ -4,7 +4,7 @@
   min-height: 32px;
   background: #fff;
   padding: 5px 0;
-  position:fixed;
+  position:absolute;
   bottom:0;
 }
 
