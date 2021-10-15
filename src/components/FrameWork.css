@@ -23,6 +23,10 @@
   align-self: center;
 }
 
+ol li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 @media (min-width: 769px) and (max-width: 1366px) {
   .container-framework {
     max-height: 67vh;
