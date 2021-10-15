@@ -18,7 +18,7 @@ class TransformacaoDescription extends React.Component {
               direção única, e como propósito último promotor de um modo
               universalizante e redentor de educar em busca de um admirável
               futuro melhor. Temos, sim, alterações gráficas: Educação
-              Transforma. Educação Transforma! Educação transforma?
+              Transforma. Educação Transforma! Educação transforma!!
             </p>
             <p>
               {' '}
@@ -35,7 +35,7 @@ class TransformacaoDescription extends React.Component {
               <img className="warning-sign" src={warningSign} alt="Atenção" />
               <p>
                 Se você não se enquadra em TRANSFORMAÇÃO, escolha outro{' '}
-                <i>Frame</i>.
+                <i>Frame</i> ao lado.
               </p>
             </div>
           </div>

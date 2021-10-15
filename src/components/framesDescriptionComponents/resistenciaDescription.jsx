@@ -11,23 +11,23 @@ class ResistenciaDescription extends React.Component {
           <div className="container-frame-description">
             <p className="subtitle-frame-description">Resistir é preciso?</p>
             <p>
-              Este frame é fundamentalmente político, e sugere que resistir é
-              preciso em um tempo-espaço de luta que homogeniza, anacroniza e
+              Este frame é fundamentalmente político e sugere que resistir é
+              preciso em um tempo-espaço de luta que homogeneiza, anacroniza e
               compete entre si na produção de realidades resistentes.
             </p>
             <p>
-              A busca por modos de conhecer situados, corporificados, ecoado
+              A busca por modos de conhecer situados, corporificados, ecoando
               outras vozes, revelando outros corpos/sujeitos curriculantes faz
-              emergir questões tais como: Que projeto de educação disputamos e
-              resistimos? Como e com quem vivemos e resistimos? Como as lutas
-              que lutamos ressoam em nós e nos currículos que produzimos? Que
-              sociedade queremos viver, amar, educar?
+              emergir questões tais como: Que projeto de educação disputamos?
+              Por que resistimos? Como e com quem vivemos e resistimos? Como as
+              lutas que lutamos ressoam em nós e nos currículos que produzimos?
+              Que sociedade queremos viver, amar, educar?
             </p>
             <p>
               {' '}
               <strong>
-                Com tantas perguntas, como não clamar por Fernando Pessoa: Viver
-                é preciso?
+                Com tantas perguntas, como não clamar por Fernando Pessoa:
+                Resistir é preciso?
               </strong>
             </p>
             <p>
@@ -38,7 +38,7 @@ class ResistenciaDescription extends React.Component {
               <img className="warning-sign" src={warningSign} alt="Atenção" />
               <p>
                 Se você não se enquadra em RESISTÊNCIA, escolha outro{' '}
-                <i>Frame</i>.
+                <i>Frame</i> ao lado.
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ class FramesDescription extends React.Component {
               mundo pelo conhecimento conduzido pela leitura. A ideia de um
               sistema onipresente, múltiplo, que não permite a comunicação de
               signos e sentimentos humanos fora dos seus limites, o texto, a
-              escritura, e mesmo a manifestação da fala.
+              escritura e, mesmo, a manifestação da fala.
             </p>
             <p>
               {' '}
@@ -38,8 +38,8 @@ class FramesDescription extends React.Component {
             <div className="warning-frame-description">
               <img className="warning-sign" src={warningSign} alt="Atenção" />
               <p>
-                Se você não se enquadra em LINGUAGEM, escolha outro <i>Frame</i>
-                .
+                Se você não se enquadra em LINGUAGEM, escolha outro <i>Frame</i>{' '}
+                ao lado.
               </p>
             </div>
           </div>

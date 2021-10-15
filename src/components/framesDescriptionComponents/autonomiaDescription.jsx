@@ -36,8 +36,8 @@ class AutonomiaDescription extends React.Component {
             <div className="warning-frame-description">
               <img className="warning-sign" src={warningSign} alt="Atenção" />
               <p>
-                Se você não se enquadra em AUTONOMIA, escolha outro <i>Frame</i>
-                .
+                Se você não se enquadra em AUTONOMIA, escolha outro <i>Frame</i>{' '}
+                ao lado.
               </p>
             </div>
           </div>

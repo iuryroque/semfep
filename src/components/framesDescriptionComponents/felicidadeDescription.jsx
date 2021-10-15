@@ -34,7 +34,7 @@ class FelicidadeDescription extends React.Component {
               <img className="warning-sign" src={warningSign} alt="Atenção" />
               <p>
                 Se você não se enquadra em FELICIDADE, escolha outro{' '}
-                <i>Frame</i>.
+                <i>Frame</i> ao lado.
               </p>
             </div>
           </div>
