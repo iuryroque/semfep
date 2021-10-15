@@ -4,7 +4,7 @@ import './Footer.css';
 import ppge_ufba from '../images/ppge-ufba.png';
 import faced_logo from '../images/faced_logo.png';
 import brasao_ufba from '../images/brasao_ufba.jpg';
-import color_logo from '../images/color-logo.jpg';
+import logo_fep_footer from '../images/logo-fep-colorido-footer.png';
 
 function Footer() {
   return (
@@ -31,7 +31,7 @@ function Footer() {
         />
         <img
           className="img-footer"
-          src={color_logo}
+          src={logo_fep_footer}
           alt="Logo do Grupo de Formação de Professores em Exercício da UFBA"
         />
       </div>
