@@ -274,7 +274,10 @@ class FrameWork extends React.Component {
           <p>
             BAIXE AS REGRAS DE ENQUADRAMENTO E SUBMISSÃO DE TRABALHOS, QUE CONTA
             COM UMA TABELA COMPARATIVA DOS FRAMES EM FORMATO PDF{' '}
-            <strong>CLICANDO AQUI</strong>.
+            <a href="https://drive.google.com/uc?export=download&id=1LN_QKuLeZ4EaG_nlr9-5QoZcMLKVhDsh">
+              <strong>CLICANDO AQUI</strong>
+            </a>
+            .
           </p>
         </section>
       </div>
