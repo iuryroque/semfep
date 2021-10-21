@@ -13,6 +13,10 @@ function Footer() {
         <Link to="/visemfep/ficha-tecnica">Ficha Técnica</Link> <Link>|</Link>{' '}
         <Link to="/visemfep/contatos">Contatos</Link>
       </p>
+      <div className="footer-deadline">
+        <p>VI SEMFEP | 25 a 27 de Novembro/2021</p>
+        <p>Inscrições para trabalhos de 18 a 31 de Outubro/2021</p>
+      </div>
       <div className="imgs-container">
         <img
           className="img-footer"

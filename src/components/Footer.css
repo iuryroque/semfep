@@ -26,6 +26,10 @@
   margin: 0 5%;
 }
 
+.footer-deadline {
+  display: none;
+}
+
 @media (min-width: 860px) {
   .footer-Footer {
     display: flex;
@@ -55,4 +59,23 @@
     width: auto;
     margin: 0 20px;
   }
+
+  .footer-deadline {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    left: -12vw;
+    position: relative;
+  }
+
+  .footer-deadline p {
+    margin: 2px 0;
+    width: 24vw;
+  }
+
+  .footer-deadline p:nth-of-type(2) {
+    margin-top: 8px;
+  }
 }
+
+
