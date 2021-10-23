@@ -1,6 +1,7 @@
 import './App.css';
 
 import Home from './pages/home';
+import WarningPage from './pages/warningPage';
 import SemfepHomePage from './pages/semfepHome';
 import FramesPage from './pages/frames';
 import FrameWorkPage from './pages/frameWork';
@@ -32,7 +33,7 @@ function App() {
       {/* <FrameWorkPage /> */}
 
       <Switch>
-        <Route path="/" exact component={SemfepHomePage} />
+        <Route exact path="/" component={WarningPage} />
         {/* <Route path="/quem-somos" exact component={Home} /> */}
         <Route path="/visemfep" exact component={SemfepHomePage} />
         <Route path="/visemfep/frames" exact component={FramesPage} />

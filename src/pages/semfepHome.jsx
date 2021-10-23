@@ -2,14 +2,11 @@ import '../App.css';
 import './semfepHome.css';
 import { Link } from 'react-router-dom';
 import ButtonPlay from '../images/Button-Play.png';
-import Warning from '../components/Warning';
+// import Warning from '../components/Warning';
 
 function SemfepHomePage() {
   return (
     <div className="page-semfep">
-      <div className="warning-page">
-        <Warning />
-      </div>
       <div className="comecar-container-semfep">
         <h2 className="h2-semfep">
           CLIQUE AQUI <br />

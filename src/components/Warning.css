@@ -1,32 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.warning-page {
-  background-color: white;
-  opacity: 0.85;
+.warning {
+  background-color: rgba(250, 250, 250, 0.80);
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
   display: flex;
 }
 
-.warning-page h1 {
+.warning h1 {
+  display: flex;
   align-self: center;
+  text-align: center;
   width: 80%;
   color: black;
-  opacity: 1;
-  text-align: center;
   font-size: 50px;
   font-family: 'Bebas Neue', cursive;
+  margin: 0 auto;
 }
 
 .close-icon {
   width: 40px;
-  right: 0;
-  top: 0;
+  right: 20px;
+  top: 20px;
   position: absolute;
 }
 
 @media (max-width: 768px) {
-  .warning-page h1 {
-    font-size: 64px;
+  .warning h1 {
+    font-size: 24px;
+    line-height: 40px;
   }
 }
