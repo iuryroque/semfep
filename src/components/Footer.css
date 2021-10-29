@@ -38,15 +38,20 @@
 
   .links-footer {
     width: 50%;
-    font-size: 24px;
+    font-size: 16px;
     margin: 0 0 0 20px;
     align-self: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .links-footer a {
     color: black;
     text-decoration: none;
-    display: inline;
+    display: flex;
+    align-self: center;
+    margin-left: -70%;
+    margin-top: 5px;
   }
 
   .imgs-container {
@@ -55,7 +60,7 @@
   }
 
   .img-footer {
-    height: 50px;
+    height: 40px;
     width: auto;
     margin: 0 20px;
   }
@@ -64,13 +69,13 @@
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    left: -12vw;
+    left: -15vw;
     position: relative;
   }
 
   .footer-deadline p {
     margin: 2px 0;
-    width: 24vw;
+    width: 27vw;
   }
 
   .footer-deadline p:nth-of-type(2) {
@@ -78,4 +83,8 @@
   }
 }
 
-
+hr {
+  align-self: center;
+  width: 130px;
+  margin: 5px 0 0 -70%;
+}

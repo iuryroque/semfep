@@ -10,7 +10,9 @@ function Footer() {
   return (
     <footer className="footer-Footer">
       <p className="links-footer">
-        <Link to="/visemfep/ficha-tecnica">Ficha Técnica</Link> <Link>|</Link>{' '}
+        <Link to="/visemfep/ficha-tecnica">Ficha Técnica</Link> 
+        {/* <Link> &nbsp; | &nbsp; </Link> */}
+        <hr />
         <Link to="/visemfep/contatos">Contatos</Link>
       </p>
       <div className="footer-deadline">
@@ -18,21 +20,27 @@ function Footer() {
         <p>Inscrições para trabalhos de 18 a 31 de Outubro/2021</p>
       </div>
       <div className="imgs-container">
-        <img
-          className="img-footer"
-          src={brasao_ufba}
-          alt="Logo da Faculdade de Educação da UFBA"
-        />
-        <img
-          className="img-footer"
-          src={faced_logo}
-          alt="Logo do Programa de Pós Graduação em Educação da UFBA"
-        />
-        <img
-          className="img-footer"
-          src={ppge_ufba}
-          alt="Logo do Programa de Pós Graduação em Educação da UFBA"
-        />
+        <a href="http://www.ufba.br">
+          <img
+            className="img-footer"
+            src={brasao_ufba}
+            alt="Brasão da UFBA"
+          />
+        </a>
+        <a href="https://faced.ufba.br/">
+          <img
+            className="img-footer"
+            src={faced_logo}
+            alt="Logo do Programa de Pós Graduação em Educação da UFBA"
+          />
+        </a>
+        <a href="http://www.pgedu.faced.ufba.br/">
+          <img
+            className="img-footer"
+            src={ppge_ufba}
+            alt="Logo do Programa de Pós Graduação em Educação da UFBA"
+          />
+        </a>
         <img
           className="img-footer"
           src={logo_fep_footer}

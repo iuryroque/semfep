@@ -8,28 +8,28 @@ class Datasheet extends React.Component {
       <div className="container-datasheet">
         <section>
           <h1>FICHA TÉCNICA</h1>
-          <h2>Web Designer</h2>
+          <h4>Web Designer</h4>
           <p>Lucas do Santos</p>
 
-          <h2>Programação Web </h2>
+          <h4>Programação Web </h4>
           <p>
             Ulisses Roque <br />
             Iury Roque
           </p>
 
-          <h2>Coordenação Artística</h2>
+          <h4>Coordenação Artística</h4>
           <p>Vitor Marques</p>
 
-          <h2>Coordenação do Projeto/ Roteiro / Product Mananger </h2>
+          <h4>Coordenação do Projeto/ Roteiro / Product Mananger </h4>
           <p>Augusto Flávio</p>
 
-          <h2>Coordenação do VI SEMFEP</h2>
+          <h4>Coordenação do VI SEMFEP</h4>
           <p>
             Maria Inez Carvalho <br />
             Roseli de Sá
           </p>
 
-          <h2>Composição dos Frames</h2>
+          <h4>Composição dos Frames</h4>
           <p>
             Amarildo dos Santos; Augusto Flávio; Camila Ayala; Carol; Caroline;
             Darty Cléia; Elísio Filho; Emanuela Dourado; Fábio Vieira; Joelma

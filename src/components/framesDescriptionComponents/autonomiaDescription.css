@@ -4,7 +4,8 @@
   background: url('../../images/Android/8Ativo\ 2.png');
   background-size: 100vw 80vh;
   width: 100vw;
-  max-height: 68vh;
+  max-height: 78%;
+  height: 78%;
   display: flex;
   color: white;
   overflow-y: scroll;
@@ -44,10 +45,11 @@
   .container-autonomia-description-page {
     background-size: 100% 100%;
     width: 60%;
-    height: 75%;
+    height: 83%;
     float: right;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-right: 15%;
+    max-height: 83%;
   }
   .frame-description h1 {
     width: 100%;
