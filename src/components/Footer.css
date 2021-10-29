@@ -15,7 +15,11 @@
 .imgs-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.imgs-container a {
+  display: grid;
 }
 
 .img-footer {
@@ -24,6 +28,8 @@
   width: 7%;
   min-width: 20px;
   margin: 0 5%;
+  align-self: center;
+  justify-self: center;
 }
 
 .footer-deadline {
