@@ -41,14 +41,10 @@ ol li:not(:last-child) {
 
   .container-framework {
     max-height: 73vh;
+    margin: 0 15%;
   }
 }
 
-/* .button-framework-link {
-  display: flex;
-}
-
 .button-framework {
-  border-radius: 0;
-  justify-self: center;
-} */
+  margin-bottom: 20px;
+}

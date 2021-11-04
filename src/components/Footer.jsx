@@ -17,7 +17,7 @@ function Footer() {
       </p>
       <div className="footer-deadline">
         <p>VI SEMFEP | 25 a 27 de Novembro/2021</p>
-        <p>Inscrições para trabalhos de 18 a 31 de Outubro/2021</p>
+        <p>Submissões prorrogadas até de 12 de Novembro/2021</p>
       </div>
       <div className="imgs-container">
         <a href="http://www.ufba.br">

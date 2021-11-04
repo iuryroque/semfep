@@ -7,7 +7,9 @@ import ButtonMenu from '../images/Android/button-menu.png';
 function NavBar() {
   return (
     <div className="nav-page">
-      <img id="img-navbar" src={eventLogo} alt="" />
+      <Link to="/visemfep/frames">
+        <img id="img-navbar" src={eventLogo} alt="" />
+      </Link>
       <nav>
         <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">

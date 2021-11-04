@@ -279,16 +279,18 @@ class FrameWork extends React.Component {
             </a>
             .
           </p>
-          {/* <a
+          
+          <button className="button-framework" type="button">
+            <a
             className="button-framework-link"
             href="http://www.semfep.ufba.br/"
             target="_blank"
           >
-            <button className="button-framework" type="button">
               Clique aqui para <br />
               enquadrar seu trabalho
-            </button>
-          </a> */}
+            </a>
+          </button>
+          
         </section>
       </div>
     );
