@@ -1,9 +1,9 @@
 .footer-Footer {
   width: 100%;
-  height: auto;
+  height: 10%;
   min-height: 32px;
   background: #fff;
-  padding: 5px 0;
+  padding: 0 0;
   position: absolute;
   bottom: 0;
 }

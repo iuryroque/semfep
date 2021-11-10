@@ -33,6 +33,9 @@ function NavBar() {
           >
             <li className="li-nav">Ficha Técnica</li>
           </Link>
+          <Link to="/visemfep/parceiros">
+            <li className="li-nav">Parceiros</li>
+          </Link>
         </ul>
       </nav>
     </div>
