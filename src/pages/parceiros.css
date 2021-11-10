@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+.page-parceiros {
+  background-image: url('../images/backgrounds/Frame6.png');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

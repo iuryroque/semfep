@@ -7,6 +7,8 @@ import FramesPage from './pages/frames';
 import FrameWorkPage from './pages/frameWork';
 import ContactsPage from './pages/contacts';
 import DataSheetPage from './pages/datasheet';
+import Parceiros from './pages/parceiros';
+
 import { Switch, Route, Link } from 'react-router-dom';
 
 // importa páginas de descrição
@@ -34,7 +36,6 @@ function App() {
 
       <Switch>
         <Route exact path="/" component={WarningPage} />
-        {/* <Route path="/quem-somos" exact component={Home} /> */}
         <Route path="/visemfep" exact component={SemfepHomePage} />
         <Route path="/visemfep/frames" exact component={FramesPage} />
         {/* rotas para as páginas de descrição */}
@@ -85,6 +86,7 @@ function App() {
         />
         <Route path="/visemfep/contatos" exact component={ContactsPage} />
         <Route path="/visemfep/ficha-tecnica" exact component={DataSheetPage} />
+        <Route path="/visemfep/parceiros" component={Parceiros} />
       </Switch>
     </div>
   );

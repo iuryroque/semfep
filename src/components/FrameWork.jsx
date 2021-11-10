@@ -29,7 +29,10 @@ class FrameWork extends React.Component {
           <h4>Prazos</h4>
           <p>
             As inscrições para enquadramentos e submissões de trabalhos,
-            acontecerão de <strong>18 a 31 de outubro de 2021</strong>.
+            acontecerão de <strong STYLE="text-decoration:line-through">18 a 31 de outubro de 2021</strong>.
+            <br />
+            <br />
+            Inscrições prorrogadas: <strong>até 12 de Novembro de 2021</strong>.
           </p>
           <p>
             Todos/as que fizerem enquadramento e submissão de trabalhos através
@@ -231,7 +234,7 @@ class FrameWork extends React.Component {
             </li>
             <li>
               Aqueles/as autores que tiverem seus trabalhos aprovados no evento,
-              deverão enviar até o dia <strong>14 de novembro de 2021</strong>,
+              deverão enviar até o dia <strong>20 de novembro de 2021</strong>,
               seus arquivos de áudio e vídeo originais, para o e-mail:{' '}
               <a href="mailto:plataformafep@gmail.com">
                 plataformafep@gmail.com

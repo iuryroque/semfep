@@ -1,0 +1,91 @@
+.container-parceiros-e-apoio {
+  background-color: #fff ;
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+  position: relative;
+  right: 0;
+  margin-top: 2%;
+  margin-left: 9%;
+}
+
+.container-parceiros {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+}
+
+.container-parceiros .column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-parceiros .column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15%;
+}
+
+.container-apoio {
+  margin-left: 15%;
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-if-sertao {
+  width: 60%;
+}
+
+.logo-ifba {
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+.logo-fel {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.logo-gefep {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.logo-uneb {
+  width: 120%;
+}
+
+.logo-aplb {
+  width: 70%
+}
+
+@media (max-width: 768px) {
+  .container-parceiros-e-apoio {
+    flex-direction: column;
+    margin-left: -5%;
+  }
+
+  .logo-fel {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  
+  .logo-gefep {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .logo-uneb {
+    width: 120%;
+  }
+
+  .container-apoio {
+    margin-top: 5%;
+  }
+}
